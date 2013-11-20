@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timing_choices">
+        <item>60/10</item>
+        <item>60/1</item>
+        <item>1/1 (по секундно)</item>
+        <item>60/60 (по минутно)</item>
+        <item>60/30</item>
+        <item>10/10</item>
+        <item>30/1</item>
+        <item>30/6</item>
+        <item>30/10</item>
+        <item>30/30</item>
+        <item>45/1</item>
+        <item>60/15</item>
+        <item>3600/3600 (по часу)</item>
+    </string-array>
+    <string-array name="stat_choices">
+        <item>Лимит бесплатных минут</item>
+        <item>Лимит бесплатных SMS</item>
+        <item>Лимит бесплатных данных</item>
+        <item>Бесплатные единицы</item>
+        <item>Остальные расходы</item>
+        <item>Общие расходы</item>
+        <item>Исходящие мин. (Всего)</item>
+        <item>Исходящие мин. (Месяц)</item>
+        <item>Исходящие платные мин. (Всего)</item>
+        <item>Исходящие платные мин. (Месяц)</item>
+        <item>Исходящие вызовы (Всего)</item>
+        <item>Исходящие вызовы (Месяц)</item>
+        <item>Входящие мин. (Всего)</item>
+        <item>Входящие мин. (Месяц)</item>
+        <item>Входящие вызовы (Всего)</item>
+        <item>Входящие вызовы (Месяц)</item>
+        <item>Неудачные вызовы (Всего)</item>
+        <item>Неудачные вызовы (Месяц)</item>
+        <item>Пропущенные вызовы (Всего)</item>
+        <item>Пропущенные вызовы (Месяц)</item>
+        <item>Расходы на вызовы</item>
+        <item>Отправлено SMS (Всего)</item>
+        <item>Отправлено SMS (Месяц)</item>
+        <item>Отправлено платных SMS (Всего)</item>
+        <item>Отправлено платных SMS (Месяц)</item>
+        <item>Получено SMS (Всего)</item>
+        <item>Получено SMS (Месяц)</item>
+        <item>Расходы на SMS</item>
+        <item>Мобильные данные (Сегодня)</item>
+        <item>Мобильные данные (Месяц)</item>
+        <item>Мобильные данные (Всего)</item>
+        <item>Расходы на мобильные данные</item>
+        <item>Wifi данные (Сегодня)</item>
+        <item>Wifi данные (Месяц)</item>
+        <item>Wifi данные (Всего)</item>
+        <item>Прогнозируемые минуты</item>
+        <item>Прогнозируемые SMS</item>
+        <item>Прогнозируемые единицы</item>
+        <item>Прогнозируемые данные</item>
+        <item>Прогнозируемые расходы</item>
+        <item>Remaining Days (Month)</item>
+    </string-array>
+    <string-array name="hours">
+        <item>00:00 (12 часов ночи)</item>
+        <item>01:00 (1 час ночи)</item>
+        <item>02:00 (2 часа ночи)</item>
+        <item>03:00 (3 часа ночи)</item>
+        <item>04:00 (4 часа ночи)</item>
+        <item>05:00 (5 часов ночи)</item>
+        <item>06:00 (6 часов утра)</item>
+        <item>07:00 (7 часов утра)</item>
+        <item>08:00 (8 часов утра)</item>
+        <item>09:00 (9 часов утра)</item>
+        <item>10:00 (10 часов утра)</item>
+        <item>11:00 (11 часов утра)</item>
+        <item>12:00 (12 часов дня)</item>
+        <item>13:00 (1 час дня)</item>
+        <item>14:00 (2 часа дня)</item>
+        <item>15:00 (3 часа дня)</item>
+        <item>16:00 (4 часа дня)</item>
+        <item>17:00 (5 часов дня)</item>
+        <item>18:00 (6 часов вечера)</item>
+        <item>19:00 (7 часов вечера)</item>
+        <item>20:00 (8 часов вечера)</item>
+        <item>21:00 (9 часов вечера)</item>
+        <item>22:00 (10 часов вечера)</item>
+        <item>23:00 (11 часов вечера)</item>
+        <item>00:00 (12 часов ночи след. дня)</item>
+    </string-array>
+    <string-array name="upateIntervallTraffic_choices">
+        <item>15 минут (высокая точность)</item>
+        <item>30 минут (по умолчанию)</item>
+        <item>60 минут (меньше расход батареи)</item>
+    </string-array>
+    <string-array name="updateIntervallSMS_choices">
+        <item>45 минут (больше расход батареи)</item>
+        <item>90 минут (по умолчанию)</item>
+        <item>6 часов (меньше расход батареи)</item>
+    </string-array>
+    <string-array name="statusBarWidgetThemes">
+        <item>Светлая</item>
+        <item>Темная</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+        <item>Будни (Пн - Пт)</item>
+        <item>Выходные</item>
+    </string-array>
+</resources>

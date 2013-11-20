@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+	<link href="charts.css" rel="stylesheet" type="text/css" /> 
+    <script language="javascript" type="text/javascript" src="../../jquery/jquery.js"></script>
+	<script language="javascript" type="text/javascript" src="../js/jquery.flot.js"></script>
+    <script language="javascript" type="text/javascript" src="../js/jquery.flot.pie.js"></script>
+    
+	<script id="source" language="javascript" type="text/javascript">
+		function load(){
+			window.testhandler.loadGraph();
+		}
+		
+		function showGraph(data) {
+			$.plot($("#chart"), data,{
+		        series: {
+		            pie: { 
+		                show: true,
+		                radius: 0.9,
+		                label: {
+		                    show: true,
+		                    radius: 0.6,
+		                    formatter: function(label, series){
+		                        return '<div class="label">'+Math.round(series.percent)+'%</div>';
+							}
+		                },
+		                stroke: {
+							width: 3
+						}
+		            }
+		        },
+	            legend: {
+	                show: true,
+	                noColumns: 2,
+	                backgroundColor: null,
+	                labelBoxBorderColor: "#fff",
+	                container: $("#legend")
+	            },
+	            grid: {
+	    			clickable: true
+	    		}
+			});
+			var fnClickCallback = function(event, pos, obj){
+				if(obj)
+					window.ChartAdapter.chartSeriesClicked(obj.seriesIndex, obj.series.label, obj.series.data, obj.series.percent,obj.series.color);
+				else
+					window.ChartAdapter.chartSeriesUnfocused();
+			};
+			$("#chart").bind("plotclick", fnClickCallback);
+		}
+		$(document).ready(function() {	
+			var javaStringData = ChartAdapter.getData();
+			var javaData = $.parseJSON(javaStringData);
+			showGraph(javaData);
+		});
+		
+	</script>
+ </head>
+ <body>	
+ <p></p>
+	<div id="chart" style="width:290px;height:290px"></div>
+	<div id="legend"></div>
+ </body>	
+</html>

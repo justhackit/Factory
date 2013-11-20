@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timing_choices">
+        <item>60/10</item>
+        <item>60/1</item>
+        <item>1/1 (másodpercenként)</item>
+        <item>60/60 (percenként)</item>
+        <item>60/30</item>
+        <item>10/10</item>
+        <item>30/1</item>
+        <item>30/6</item>
+        <item>30/10</item>
+        <item>30/30</item>
+        <item>45/1</item>
+        <item>60/15</item>
+        <item>3600/3600 (óránként)</item>
+    </string-array>
+    <string-array name="stat_choices">
+        <item>Ingyenes perc limit</item>
+        <item>Ingyenes SMS limit</item>
+        <item>Ingyenes mobil adat limit</item>
+        <item>Ingyenes egység</item>
+        <item>Felhasználható költség</item>
+        <item>Összes költség</item>
+        <item>Kimenő hívások percben (Összesen)</item>
+        <item>Kimenő hívások percben (Havi)</item>
+        <item>Kimenő számlázott hívások percben (Összesen)</item>
+        <item>Kimenő számlázott hívások percben (Havi)</item>
+        <item>Kimenő hívások (Összesen)</item>
+        <item>Kimenő hívások (Havi)</item>
+        <item>Fogadott hívások percben (Összesen)</item>
+        <item>Fogadott hívások percben (Havi)</item>
+        <item>Fogadott hívások (Összesen)</item>
+        <item>Fogadott hívások (Havi)</item>
+        <item>Sikertelen hívások (Összesen)</item>
+        <item>Sikertelen hívások (Havi)</item>
+        <item>Nem fogadott hívások(Összesen)</item>
+        <item>Nem fogadott hívások (Havi)</item>
+        <item>Hívás költség</item>
+        <item>Elküldött SMS (Összesen)</item>
+        <item>Elküldött SMS (Havi)</item>
+        <item>Elküldött számlázott SMS (Összesen)</item>
+        <item>Elküldött számlázott SMS (Havi)</item>
+        <item>Fogadott SMS (Összesen)</item>
+        <item>Fogadott SMS (Havi)</item>
+        <item>SMS költség</item>
+        <item>Mobil adatforgalom mai</item>
+        <item>Mobil adatforgalom havi</item>
+        <item>Mobil adatforgalom összesen</item>
+        <item>Mobil adatforgalom költség</item>
+        <item>Wifi adatforgalom mai</item>
+        <item>Wifi adatforgalom havi</item>
+        <item>Wifi adatforgalom összesen</item>
+        <item>Várható számlázott perc</item>
+        <item>Várható számlázott SMS</item>
+        <item>Várható egység</item>
+        <item>Várható mobil adat</item>
+        <item>Várható költség</item>
+        <item>Remaining Days (Month)</item>
+    </string-array>
+    <string-array name="hours">
+        <item>12 óra De</item>
+        <item>1 óra De</item>
+        <item>2 óra De</item>
+        <item>3 óra De</item>
+        <item>4 óra De</item>
+        <item>5 óra De</item>
+        <item>6 óra De</item>
+        <item>7 óra De</item>
+        <item>8 óra De</item>
+        <item>9 óra De</item>
+        <item>10 óra De</item>
+        <item>11 óra De</item>
+        <item>12 óra Du</item>
+        <item>1 óra Du</item>
+        <item>2 óra Du</item>
+        <item>3 óra Du</item>
+        <item>4 óra Du</item>
+        <item>5 óra Du</item>
+        <item>6 óra Du</item>
+        <item>7 óra Du</item>
+        <item>8 óra Du</item>
+        <item>9 óra Du</item>
+        <item>10 óra Du</item>
+        <item>11 óra Du</item>
+        <item>12 óra De (következő nap)</item>
+    </string-array>
+    <string-array name="upateIntervallTraffic_choices">
+        <item>15 perc (nagyobb pontosság)</item>
+        <item>30 perc (alapértelmezett)</item>
+        <item>60 perc (alacsonyabb energiafogyasztás)</item>
+    </string-array>
+    <string-array name="updateIntervallSMS_choices">
+        <item>45 perc (magasabb energiafogyasztás)</item>
+        <item>90 perc (alapértelmezett)</item>
+        <item>6 óra (alacsonyabb energiafogyasztás)</item>
+    </string-array>
+    <string-array name="statusBarWidgetThemes">
+        <item>Világos</item>
+        <item>Sötét</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>Hétfő</item>
+        <item>Kedd</item>
+        <item>Szerda</item>
+        <item>Csütörtök</item>
+        <item>Péntek</item>
+        <item>Szombat</item>
+        <item>Vasárnap</item>
+        <item>Munkanap (Hét - Pén)</item>
+        <item>Hétvége</item>
+    </string-array>
+</resources>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nitro_valueseekbar_set">Beállítás</string>
+    <string name="nitro_valueseekbar_cancel">Mégsem</string>
+    <string name="whatsnew_free">Ingyenes</string>
+    <string name="whatsnew_premium">Prémium</string>
+    <string name="quickinfo_event_log">Ez a napló tartalmazza az összes SMS és hívás információt, amelyeket a DroidStats összegyűjtött a telefonjáról, ezek képezik az analízis alapját. Bármelyiket megérintve további információkat kaphat róluk.</string>
+    <string name="price_connection_fee">kapcsolási díj (hívásonként)</string>
+    <string name="use_connection_fee">kapcsolási díj használata</string>
+    <string name="use_basic_fee">alapdíj használa</string>
+    <string name="price_basic_fee">alapdíj (havonta)</string>
+    <string name="pref_export_config">Konfiguráció export</string>
+    <string name="pref_export_data">Adat export</string>
+    <string name="pref_import_config">Konfiguráció import</string>
+    <string name="pref_import_data">Adat import</string>
+    <string name="pref_export_csv">Esemény napló export(CSV)</string>
+    <string name="pref_export_config_sum">Konfigurációs beállítások mentése az SD kártyára beleértve a megadott kivétel telefonszámokat és időszakokat</string>
+    <string name="pref_export_data_sum">Hívás és SMS adatok mentése az SD kártyára</string>
+    <string name="pref_import_config_sum">Konfiguráció visszaállítása az SD kártyáról</string>
+    <string name="pref_import_data_sum">Hívás és SMS adatok visszaállítása az SD kártyáról, hozzáfűzve azokat a jelenlegi adatokhoz</string>
+    <string name="pref_export_csv_sum">Hívás és SMS adatok exportja .CSV fájlba</string>
+    <string name="pref_use_unicode_sms_split">SMS darabolás 80 karakter után (Unicode)</string>
+    <string name="pref_use_unicode_sms_split_sum">Kapcsolja be, ha az SMS-ek 80 karakter után kerülnek darabolásra</string>
+    <string name="pref_importexport">Import/Export (BETA)</string>
+    <string name="units_category">SMS/Perc átváltás</string>
+    <string name="unit_limit_box_or">vagy</string>
+    <string name="pref_gui">Felület beállítások</string>
+    <string name="pref_notifications_cat">Értesítési beállítások</string>
+    <string name="pref_unit_limit">Egység Limit (SMS/Perc átváltás)</string>
+    <string name="pref_unit_limit_sum">Kapcsolja be, ha a rendelkezésére álló SMS-ek illetve percek átválthatók egymás között. Például 100 perc = 200 SMS. A hívás egység alapját a perc képezi.Kiszámításra kerül a megadott SMS és egység (perc) limitek átváltási aránya. A költségek számítása ezen az arányon alapul, Önnek csak az egység árát kell megadnia.Ennek a funkciónak az engedélyezése egyúttal kikapcsolja a személyes SMS és hívásidő limiteket.</string>
+    <string name="pref_units_free_sum">Lebeszélhető perc.Ez a limit alapegysége.</string>
+    <string name="pref_units_free">Ingyenes perc (egység)</string>
+    <string name="pref_units_sms_free_sum">VAGY a havonta küldhető SMS-ek száma.</string>
+    <string name="pref_units_sms_free">Ingyenes SMS</string>
+    <string name="pref_costs_limit">Költség limit</string>
+    <string name="pref_costs_limit_sum">Kapcsolja be, ha Önnek van egy személyes, meghatározott költség limitje, amelyet nyomon kíván követni. Ha ez a funkció aktív, a DroidStats által kezelt áttekintésekből nem jeleníthető meg 3-nál több.</string>
+    <string name="pref_costs_free_sum">A maximálisan elkölteni kívánt összeg, amely elérésekor figyelmeztetést szeretne kapni.</string>
+    <string name="pref_costs_free">Költséglimitek összege</string>
+    <string name="costs_remaining">Felhasználható költség</string>
+    <string name="estimated_costs">Várható költség</string>
+    <string name="units_remaining">Felhasználható egység</string>
+    <string name="estimated_units">Várható egység</string>
+    <string name="applist_textbox_search">Alkalmazás keresés</string>
+    <string name="pref_showunits">Egység megjelenítése</string>
+    <string name="widgetconfig_4slot">4. Számláló</string>
+    <string name="widgetconfig_3slot">3. Számláló</string>
+    <string name="widgetconfig_2slot">2. Számláló</string>
+    <string name="widgetconfig_1slot">1. Számláló</string>
+    <string name="widgetconfig_configure">Konfiguráció</string>
+    <string name="button_search">Keresés</string>
+    <string name="applist_system_apps">Rendszer alkalmazások</string>
+    <string name="applist_downloaded_apps">Letöltött alkalmazások</string>
+    <string name="data_per_app_shortcuttitle">Adat / alkalmazás</string>
+    <string name="data_per_app_button">Adat / alkalmazás</string>
+    <string name="applist_not_supported_text">Sajnos ez a funkció nem támogatott az Ön készüléke, vagy a telepített ROM által.</string>
+    <string name="applist_feature_not_supported">Ez a funkció nem támogatott</string>
+    <string name="dataperapp_info_text">Összesített adatforgalom a telefon utolsó bekapcsolása óta. Tartalmazza a telefon minden adatátviteli felületén lezajlott adatforgalmat.Beleértendő a wifi, 3G, usb és bluetooth adatforgalom is. Az Android rendszer nem ad lehetőséget az adatok elkülönítésére.</string>
+    <string name="applist_getting_data">Adatok fogadása</string>
+    <string name="pref_widget_1x1_oneslot_unitsadded_sum">Csak az egy számlálós widgetre van kihatással</string>
+    <string name="pref_widget_statusbarwidget_sum">A widget integrálásra kerül az értesítési területbe.</string>
+    <string name="pref_widget_use_statusbarwidget">Állapotsor widget használata</string>
+    <string name="widget_config_title">Widget Infó</string>
+    <string name="widgetconfig_premium_support4x1">A 4x1-es widget funkció csak a támogatóink részére elérhető. Segítsen és támogasson minket, hogy még jobbá tehessük a DroidStats-ot. Az Android Market-en keresztüli támogatással lehetővé válik minden widget konfigurálása és más egyéb funkciók elérése is.</string>
+    <string name="widgetconfig_premium_supportedconfig">A widget-ek konfigurálása csak a támogatóink részére elérhető. Például átrendezheti a számlálókat, megváltoztathatja a megjelenített értékeket. Segítsen nekünk és támogasson minket, hogy a DroidStats még jobb lehessen.</string>
+    <string name="widgetconfig_premium">Támogassa a munkánkat</string>
+    <string name="pref_use1SlotWidget">Egy kijelzős widget használata</string>
+    <string name="pref_use1SlotWidget_sum">Nagyobb méretű widget, amely megjeleníti a limit sávokat.</string>
+    <string name="pref_status_bar_widget">Állapotsor widget</string>
+    <string name="pref_status_bar_widget_theme">Widget téma</string>
+    <string name="pref_widget_4x1">Widget 4x1</string>
+    <string name="pref_widget_3x1">Widget 3x1</string>
+    <string name="pref_widget_2x1">Widget 2x1</string>
+    <string name="pref_widget_1x1">Widget 1x1</string>
+    <string name="pref_widget_other">Egyéb</string>
+    <string name="pref_widget_values">Értékek</string>
+    <string name="pref_widget_transparency">Átlátszóság</string>
+    <string name="pref_widget_transparency_sum">A Froyo előtti telefonokon csak bizonyos számú átlátszósági szint állítható be.</string>
+    <string name="average_outgoing_paid_calls_length">Fizetett kimenő hívások átlagos hossza</string>
+    <string name="average_outgoing_paid_sms_length">Fizetett kimenő SMS-ek átlagos hossza</string>
+    <string name="average_outgoing_paid_calls_length_sum">A hívások átlagos hossza. A kimenő fizetett hívásokra vonatkozik.</string>
+    <string name="average_outgoing_paid_sms_length_sum">Átlagosan hány karaktert tartalmaznak az SMS-ek. A kimenő fizetett SMS-ekre vonatkozik.</string>
+    <string name="pref_useHoursDisplay">Óra/perc formátum</string>
+    <string name="pref_useHoursDisplay_sum">Például 130 perc helyett 2 óra 10 perc jelenik meg a részletes statisztikákban</string>
+    <string name="about_title">Névjegy &amp; Infók</string>
+    <string name="about_facebook">Facebook oldal</string>
+    <string name="about_donation_market">Támogatás a Market-en (Premium)</string>
+    <string name="about_donation_paypal">Támogatás a Paypal-en</string>
+    <string name="about_homepage">Honlap</string>
+    <string name="premium_invalid_title">Probléma a kulccsal</string>
+    <string name="premium_invalid_alert">Nem sikerült érvényesíteni a kulcsot. Lehetséges, hogy probléma van a google licenc szerverével (offline? indítsa újra). A licenc adatok időnként online ellenőrzésre kerülnek. Lépjen kapcsolatba velünk ha problémát észlel.</string>
+    <string name="pref_manual_corr_numlabel">Kontakt korrekció</string>
+    <string name="manual_corr_calls">perc (levonás)</string>
+    <string name="manual_corr_sms">SMS (levonás)</string>
+    <string name="manual_corr_traffic">MB adat (levonás)</string>
+    <string name="pref_manual_corr_add">Helyesbítés</string>
+    <string name="pref_manual_corr_hint">... a jelenlegi adatokból. A korrekció dátuma a mai nap.</string>
+    <string name="pref_upateIntervallSMS">SMS számlálások frissítése közötti idő</string>
+    <string name="pref_upateIntervallSMS_sum">Milyen gyakran ellenőrizze a DroidStats az elküldött és a fogadott SMS üzeneteket. Ha nem küld sok SMS-t növelje az értéket. Több kalkuláció szükséges mint az adatforgalom kiszámításához. Ha a háttérszolgáltatás le van tiltva, csak az alkalmazás elindulásakor lesz ellenőrzés.</string>
+    <string name="pref_upateIntervallTraffic">Adatforgalom számlálások frissítése közötti idő</string>
+    <string name="pref_upateIntervallTraffic_sum">Milyen gyakran ellenőrizze a DroidStats az adatátviteli felületeken zajló adatforgalmat (a pontosságra van hatással)</string>
+    <string name="pref_actions">Akciók</string>
+    <string name="pref_actions_sum">Egyszeri akciók, úgymint adatbázis törlés, vagy kézi adat korrekció</string>
+    <string name="pref_manual_correction">Kézi adat korrekció</string>
+    <string name="pref_manual_correction_sum">A hónap közepe van, vagy lecserélte a telefonját? Itt lehetősége van beállítani a telefon használat kezdőértékeit.Ez nem emeli meg a rendelkezésére álló havi limiteket.</string>
+    <string name="quickaction_stat_info">Statisztikai infók</string>
+    <string name="favorite_toggle_add">Kedvencekhez ad</string>
+    <string name="favorite_toogle_remove">Eltávolít a kedvencek közül</string>
+    <string name="pref_billIncomingCalls">Bejövő hívások számlázása</string>
+    <string name="pref_billIncomingSMS">Bejövő SMS-ek számlázása</string>
+    <string name="pref_billIncomingCalls_sum">Ha a bejövő hívások is számlázásra kerülnek, jelölje be ezt az opciót.</string>
+    <string name="pref_billIncomingSMS_sum">Ha a bejövő SMS-ek is számlázásra kerülnek, jelölje be ezt az opciót. Ha engedélyezi, akkor a kivétel telefonszámok és a költségek érvényesek a bejövő SMS-ekre is.</string>
+    <string name="excludedtimes_quickinfo">Adja meg a napokat illetve időszakokat amikor ingyenesen hívhat. Ha az ingyenes hívások időszaka hétvégére esik, akkor állítsa be a Hétvége 12 óra De - 12 óra De (következő nap) szűrőt. Ha a hétvégi ingyenes időszak hosszabb ennél, akkor például állítsa be a Péntek 7 Du - 12 De (következő nap) és Hétfő 12 De - 5 De szűrőt. A szűrők nem fedhetik át egymást éjfélkor, adjon meg 2 különböző limitet.</string>
+    <string name="excludedSMSNumbers_quickinfo">Adja meg azokat a telefonszámokat illetve kontaktokat, ahová ingyenesen küldhet SMS-t. Megadhat mintákat, melyekkel szűrheti a mintának megfelelő telefonszámokat. Ha az ingyenesen hívható számok tartalmazzák a * karaktert, a beállításokban engedélyezheti, hogy a @ karakter legyen használva a mintákban. A pontosabb eredmény elérése érdekében engedélyezze az országhívószám korrekciót.</string>
+    <string name="excludedCallnumbers_quickinfo">Adja meg azokat a telefonszámokat illetve kontaktokat, amelyeket ingyenesen hívhat. Megadhat mintákat, melyekkel szűrheti a mintának megfelelő telefonszámokat. Ha az ingyenesen hívható számok tartalmazzák a * karaktert, a beállításokban engedélyezheti, hogy a @ karakter legyen használva a mintákban. A pontosabb eredmény elérése érdekében engedélyezze az országhívószám korrekciót.</string>
+    <string name="costsettings_quickinfo">Ha a költség funkció engedélyezett, a költségek is megjelenítésre kerülnek az áttekintésben. Ha Önnek limitek vannak beállítva, a költségek csak a limitek túllépésére vonatkozóan kerülnek kiszámításra. Úgyszintén nem lesznek számításba véve a kapcsolási díjak ha hívásidő limit van beállítva.</string>
+    <string name="widgetconfg_remainingdata">Felhasználható adatforgalom ebben a periódusban</string>
+    <string name="widgetconfig_remainingsms">Felhasználható SMS ebben a periódusban</string>
+    <string name="widgetconfig_remainingcalltime">Felhasználható hívásidő ebben a periódusban</string>
+    <string name="widgetconfig_configdesc">A widget-en megjelenő adatok:</string>
+    <string name="widgetconfig_addwidget">Widget hozzáadása</string>
+    <string name="average_monthly_outgoing_payed_minutes">Átlagosan fizetett kimenő perc (Havi)</string>
+    <string name="average_weekly_outgoing_payed_minutes">Átlagosan fizetett kimenő perc (Heti)</string>
+    <string name="average_monthly_sms_sent">Átlagos kimenő SMS (Havi)</string>
+    <string name="average_weekly_sms_sent">Átlagos kimenő SMS (Heti)</string>
+    <string name="descriptionAverageMonthlySmsSent">A havonta küldött SMS-ek átlaga</string>
+    <string name="descriptionAverageWeeklySmsSent">A hetente küldött SMS-ek átlaga</string>
+    <string name="descriptionAverageMonthlyOutgoingPayedMinutes">A havonta számlázott percek átlaga</string>
+    <string name="descriptionAverageWeeklyOutgoingPayedMinutes">A hetente számlázott percek átlaga</string>
+    <string name="pref_ccc_title">Országhívószám korrekció</string>
+    <string name="pref_ccc_sum">Hozzáadja az Ön országhívószámát a telefonszámokhoz a pontosabb statisztikák készítéséhez. Ez különösen fontos az Ön által ingyenesen hívható telefonszámok esetében.</string>
+    <string name="pref_ccc_useCCC">Adja hozzá az országhívószámot az országhívószám nélküli telefonszámokhoz (csak a DS-re lesz hatással)</string>
+    <string name="pref_ccc_countrycode">Az Ön országhívószáma ( + jel nélkül)</string>
+    <string name="pref_ccc_transformations"><u>Példa a szám átalakítására:</u></string>
+    <string name="sync_progress_correction">Szám korrekció</string>
+    <string name="pref_forceEnglish">Angol nyelv használata</string>
+    <string name="pref_forceEnglish_sum">Ha az angoltól eltérő nyelven jelenik meg a DroidStats, itt átállíthatja angolra a kezelőfelületet</string>
+    <string name="pref_excludetimes_dialog_title">Napok és órák kiválasztása</string>
+    <string name="pref_excludelist_dialog_addtime">Időszak hozzáadása</string>
+    <string name="pref_excludetime_timeinfo">Állítsa be az ingyenes hívások kezdő és záró idejét.</string>
+    <string name="pref_free_times">Napok és órák - Szűrő</string>
+    <string name="pref_free_times_sum">Azon időszakok és napok kizárása, amikor az Ön hívásai nem kerülnek számlázásra.(A megadott periódusban kezdődő hívások kizárásra kerülnek)</string>
+    <string name="pref_excludelist_wildcard">A %1$s használható mint helyettesítő jel</string>
+    <string name="pref_excludelist_alreadyin">a szám szerepel</string>
+    <string name="pref_excludelist_patternmatches">A megadott minta %1$s számhoz illeszkedik</string>
+    <string name="pref_excludelist_number">Szám:</string>
+    <string name="pref_excludelist_name">Név:</string>
+    <string name="pref_excludelist_unknown">[ismeretlen]</string>
+    <string name="general">Általános</string>
+    <string name="button_continue_import">Tovább &amp; Import</string>
+    <string name="dialog_title_welcome">Üdvözli Önt a DroidStats</string>
+    <string name="dialog_title_whats_new">Mik az újdonságok ?</string>
+    <string name="welcome_text">" Köszönjük, hogy telepítette a DroidStats alkalmazást.
+
+ A DroidStats használata során beállíthatja a rendelkezésére álló "<b>ingyen percek és sms-ek számát, valamint az ingyenes adatforgalom mennyiségét</b> a szolgáltatói szerződésének megfelelően. Ha nincsenek a hívásokra, SMS-ekre, illetve az adatforgalomra vonatkozó korlátozások, Ön beállíthat <b>saját limiteket</b>" a költségei kézbentartásához. Ha eléri ezeket a limiteket, az alkalmazás értesíti Önt, továbbá a folyamatjelző sávok narancs, illetve pirosra változó színükkel is figyelmeztetik erre.
+
+ A program felületén négy különböző fület talál, melyek közül az elsőn egy áttekintést láthat, amely összefoglalja a rendelkezésre álló információkat az aktuális hónapról. A többi fül részletes információkat ad minden egyes szolgáltatásról (Hívások, SMS, Adat). A listában szereplő bármely statisztikára klikkelve további információkat kap róla. A hívás és SMS nézetben a top listákon megjelenő kontakt fotók megérintésére előjön a híváskezelő "<b>ikonsor</b>".
+
+ A havi forgalom jobb és gyorsabb felügyeletéhez próbálja ki a widgeteket. Három különböző widget áll a rendelkezésére, a legnagyobb közülük megjeleníti az Ön adat limitjeit is.
+
+ Kérem ne felejtse el beállítani a "<b>számlázási egységet </b>. Szintén beállíthatja <b>a hónap azon napját</b>, amellyel az Ön számlázási periódusa kezdődik. Ez az alkalmazás <b>emulálja az Ön szolgáltatójának a számlázási rendszerét</b>, de nem lehet az összes létező tarifa rendszert beállítani benne. Nem tudja meghatározni, hogy éppen melyik szolgáltatón keresztül történik hívás kezdeményezés. Ez az adat csak az adott szolgáltatónak áll a rendelkezésére. Ha vannak olyan <b>telefonszámok, amelyeket ingyenesen hívhat</b>", megadhatja őket a beállításokban.
+
+ A DroidStats a saját esemény naplóját szinkronizálja az Ön SMS fiókjával és hívásnaplójával. Nem kell foglalkoznia az Android 500 db-os hívás korlátjával, a törölt SMS-ekkel, hívásokkal, ezek mind figyelembevételre kerülnek a DroidStats telepítése után, növelve a számlálók pontosságát.
+
+ Ha Ön "<b>lassúbb telefonnal</b> rendelkezik, mint például HTC Dream, HTC Magic vagy HTC Hero kapcsolja ki az animációt a DroidStats beállításaiban, így felgyorsíthatja az alkalmazást. Kérem <b>ne használjon Task Killer-t</b>" a DroidStats leállításához.
+
+ Ne feledje, hogy a mérés az első hónapban az alkalmazás telepítésétől indul.
+
+ Az email címem megtalálja a rólunk menüpont alatt, kérdés vagy hiba esetén kérem vegye fel a kapcsolatot velem.
+
+ Kellemes használatot ! "</string>
+    <string name="descriptionTodayMobile">Megjeleníti a mai nap mobil internet (2G/3G) felületen keresztül küldött és fogadott adatforgalmának összegét.</string>
+    <string name="descriptionMonthMobile">Megjeleníti az aktuális számlázási hónap mobil internet (2G/3G) felületen keresztül küldött és fogadott adatforgalmának összegét. A forgalom nyomonkövetése az alkalmazás telepítésétől kezdődött.</string>
+    <string name="descriptionTotalMobile">Megjeleníti a mindenkori mobil internet (2G/3G) felületen keresztül küldött és fogadott adatforgalom összegét.</string>
+    <string name="descriptionTodayWifi">Megjeleníti a mai nap Wifi (Wireless LAN) felületen keresztül küldött és fogadott adatforgalmának összegét.</string>
+    <string name="descriptionMonthWifi">Megjeleníti az aktuális számlázási hónap Wifi (Wireless LAN) felületen keresztül küldött és fogadott adatforgalmának összegét.</string>
+    <string name="descriptionTotalWifi">Megjeleníti a mindenkori Wifi (Wireless LAN) felületen keresztül küldött és fogadott adatforgalom összegét.</string>
+    <string name="data">Adat</string>
+    <string name="data_tab">Adat</string>
+    <string name="price_per_mb_data">ár / adat MB</string>
+    <string name="use_cost_option_data">adatköltség engedélyezése</string>
+    <string name="interface_not_discovered_yet">A csatolófelületek még nem kerültek ellenőrzésre</string>
+    <string name="button_cancel">Mégsem</string>
+    <string name="button_ok">OK</string>
+    <string name="sure">Biztos?</string>
+    <string name="pref_reset_standart_check">hívás/sms számlálók újraindítása</string>
+    <string name="pref_reset_data_check">adat számlálók újraindítása</string>
+    <string name="pref_reset_interfaces_check">csatolófelületek újra ellenőrzése</string>
+    <string name="no">Nem</string>
+    <string name="yes">Igen</string>
+    <string name="pref_reset_dialog">"Biztos hogy újra akarja indítani? Az adatbázis a hívásnapló és az SMS fiókokban tárolt üzenetek alapján újra létrehozásra kerül. Minden amit időközben törölt, nem lesz figyelembe véve az új adatbázis létrehozása során. A számlálókhoz szükséges adatok időnként ismételten összegyűjtésre kerülnek a számlálók csatolófelületein keresztül. Ha súlyos problémákkal találkozott a számlálók használata során, jelölje be a 'csatolófelületek újra ellenőrzése'-t is."</string>
+    <string name="data_remaining">Felhasználható adat</string>
+    <string name="estimated_data">Várható adat</string>
+    <string name="pref_traffic_free_sum">A felhasználható havi adatforgalom</string>
+    <string name="pref_traffic_free">Ingyenes adatforgalom</string>
+    <string name="pref_traffic_limit_sum">Kapcsolja be, ha Önnek ingyenes internet adatforgalom áll a rendelkezésére a szerződése szerint.</string>
+    <string name="pref_traffic_limit">Adat limit</string>
+    <string name="traffic_daily">Mai</string>
+    <string name="traffic_monthly">Havi</string>
+    <string name="traffic_alltime">Összesen</string>
+    <string name="infoLimits">"Kérem állítsa be a limiteket a beállításokban és olvassa el a Rólunk gomb megnyomására megjelenő ablakban a vonatkozó információkat.Ha nem kíván limiteket használni, engedélyezhet csak költség beállításokat is.
+ 
+A képernyők közötti váltáshoz használja a gesztusokat."</string>
+    <string name="costs">Költségek</string>
+    <string name="pref_alternativepattern_sum">"Mióta néhány szolgáltató a '*'-ot mint szimbólumot használja a saját hívószámaiban, a @ is használható mint alternativa"</string>
+    <string name="pref_alternativepattern">Használja a @-t mint kizáró minta szimbólumot</string>
+    <string name="title">Nitro DroidStats</string>
+    <string name="sms_tab">SMS</string>
+    <string name="calls_tab">Hívások</string>
+    <string name="overview">Áttekintés</string>
+    <string name="unit_overview">Egység:</string>
+    <string name="costs_overview">Költség:</string>
+    <string name="calls_overview">Hívás:</string>
+    <string name="sms_overview">SMS:</string>
+    <string name="data_overview">Mobil adat:</string>
+    <string name="add">hozzáad</string>
+    <string name="total">Összesen</string>
+    <string name="monthly">Havi</string>
+    <string name="mobile">Mobil</string>
+    <string name="wifi">Wifi</string>
+    <string name="estimated_good">(Jó)</string>
+    <string name="estimated_bad">(Rossz)</string>
+    <string name="remaining_days_label">a számlázandó hónapból még hátralévő nap</string>
+    <string name="estimated_sms">Várható SMS</string>
+    <string name="estimated_minutes">Várható perc</string>
+    <string name="sms_remaining">Felhasználható SMS</string>
+    <string name="minutes_remaining">Felhasználható perc</string>
+    <string name="extra_costs">Extra költség</string>
+    <string name="descriptionIncomingSmsMonthly">A fogadott SMS-ek száma ebben a hónapban</string>
+    <string name="descriptionOutgoingSmsMonthly">Az elküldött SMS-ek száma ebben a hónapban</string>
+    <string name="descriptionIncomingSms">Az összesen fogadott SMS-ek száma</string>
+    <string name="descriptionOutgoingSms">Az összesen elküldött SMS-ek száma</string>
+    <string name="descriptionIncomingSMSPaidMonthly">Az Ön által ebben a hónapban kapott SMS-ek száma, kivéve a megadott ingyenes számokról érkezőket, de beleértve a multiple SMS-ek számát (több darabból álló SMS)</string>
+    <string name="descriptionOutgoingSMSPaidMonthly">Az Ön által ebben a hónapban küldött SMS-ek száma, kivéve a megadott ingyenes számokra küldötteket, de beleértve a multiple SMS-ek számát (több darabból álló SMS)</string>
+    <string name="descriptionIncomingSMSPaid">Az Ön által összesen kapott SMS-ek száma kivéve a megadott ingyenes számokról érkezőket, de beleértve a multiple SMS-ek számát (több darabból álló SMS)</string>
+    <string name="descriptionOutgoingSMSPaid">Az Ön által összesen küldött SMS-ek száma kivéve a megadott ingyenes számokra küldötteket, de beleértve a multiple SMS-ek számát (több darabból álló SMS)</string>
+    <string name="incoming_sms">Fogadott SMS</string>
+    <string name="outgoing_sms">Kimenő SMS</string>
+    <string name="incoming_sms_paid">Fogadott, fizetett SMS</string>
+    <string name="outgoing_sms_paid">Kimenő, fizetett SMS</string>
+    <string name="descriptionMissedCallsMonthly">A nem fogadott hívások száma a hónapban.</string>
+    <string name="descriptionIncomingCallsMonthly">A fogadott hívások száma a hónapban.</string>
+    <string name="descriptionIncomingMinutesMonthly">A fogadott hívások időtartama percben a hónapban.</string>
+    <string name="descriptionFailedCallsMonthly">Sikertelen hívások száma a hónapban. Kivéve az olyan hívásokat amelyek pénzbe kerülnek mint pl. a hangposta.</string>
+    <string name="descriptionOutgoingCallsMonthly">A kimenő hívások száma hónapban</string>
+    <string name="descriptionOutgoingPayedMinutesMonthly">Azoknak a kimenő hívás perceknek a száma amelyekért fizetni fog ebben a hónapban. A kivétel telefonszámokra fordított időt nem tartalmazza. Megjegyzés: Ez több lehet mint az aktuális kimenő percek száma attól függően hogy az Ön szerződése szerint milyen alapon történik a díjelszámolás (pl. 1/1, 10/60, 60/60), vagy kevesebb a kivétel telefonszámok miatt.</string>
+    <string name="descriptionOutgoingMinutesMonthly">A hónapban hívásokkal eltöltött összes idő percben.</string>
+    <string name="descriptionFailedCallsTotal">A sikertelen hívások száma összesen. Kivéve az olyan hívásokat amelyek pénzbe kerülnek mint pl. a hangposta.</string>
+    <string name="descriptionOutgoingCallsTotal">A kimenő hívások száma összesen.</string>
+    <string name="descriptionMissedCallsTotal">A nem fogadott hívások száma összesen.</string>
+    <string name="descriptionIncomingCallsTotal">A fogadott hívások száma összesen.</string>
+    <string name="descriptionIncomingMinutesTotal">A fogadott hívásokkal eltöltött összes idő percben.</string>
+    <string name="descriptionOutgoingPayedMinutesTotal">A kimenő hívások összes időtartama percben amelyekért már fizetett, illetve fizetni fog. A kivétel telefonszámokra fordított időt nem tartalmazza. Megjegyzés: Ez több lehet mint az aktuális kimenő percek száma, attól függően hogy az Ön szerződése szerint milyen alapon történik a díjelszámolás (pl. 1/1, 10/60, 60/60)</string>
+    <string name="descriptionOutgoingMinutesTotal">A kimenő hívások összes időtartama percben jelenleg.</string>
+    <string name="descriptionIncomingPayedMinutesTotal">A bejövő hívások összes időtartama percben amelyekért már fizetett, illetve fizetni fog. A kivétel telefonszámokra fordított időt nem tartalmazza. Megjegyzés: Ez több lehet mint az aktuális kimenő percek száma, attól függően hogy az Ön szerződése szerint milyen alapon történik a díjelszámolás (pl. 1/1, 10/60, 60/60)</string>
+    <string name="descriptionIncomingPayedMinutesMonth">A bejövő hívások összes időtartama percben amelyekért már fizetett, illetve fizetni fog ebben a hónapban. A kivétel telefonszámokra fordított időt nem tartalmazza. Megjegyzés: Ez több lehet mint az aktuális bejövő percek száma attól függően hogy az Ön szerződése szerint milyen alapon történik a díjelszámolás (pl. 1/1, 10/60, 60/60) vagy kevesebb a kivétel telefonszámok miatt.</string>
+    <string name="descriptionOutgoingMinutesPayed">Az összes fizetendő perc. Megjegyzés: Ez több lehet mint az aktuális kimenő percek száma, attól függően hogy az Ön szerződése szerint milyen alapon történik a díjelszámolás (pl. 1/1, 10/60, 60/60)</string>
+    <string name="descriptionOutgoingMinutes">A hívásokkal eltöltött összes idő percben.</string>
+    <string name="missed_calls">Nem fogadott hívás</string>
+    <string name="incoming_calls">Bejövő hívás</string>
+    <string name="incoming_minutes">Bejövő perc</string>
+    <string name="incoming_payed_minutes">Bejövő, fizetett perc</string>
+    <string name="failed_calls">Sikertelen hívás</string>
+    <string name="outgoing_calls">Kimenő hívás</string>
+    <string name="outgoing_payed_minutes">Kimenő, fizetett perc</string>
+    <string name="outgoing_minutes">Kimenő perc</string>
+    <string name="sync_progress_2">Események elemzése</string>
+    <string name="sync_progress_1">Szinkronizálás a rendszerrel</string>
+    <string name="progress_working">Dolgozom..</string>
+    <string name="starting_sync">Szinkronizálás indítása</string>
+    <string name="first_sync_message">"Adat szinkronizálás (Az első szinkronizálás néhány percig is eltarthat.)
+
+Tekintse meg a widgeteket a szinkronizálás után."</string>
+    <string name="unit_calls">hívás</string>
+    <string name="unit_minutes">perc</string>
+    <string name="unit_seconds">mp</string>
+    <string name="unit_sms">sms</string>
+    <string name="unit_sms_chars">karakter</string>
+    <string name="unit_units">egység</string>
+    <string name="app_name">DroidStats</string>
+    <string name="event_log_phone">telefon</string>
+    <string name="event_log_call_time">hívás idő</string>
+    <string name="event_log_billed_time">fizetett idő</string>
+    <string name="event_log_message_length">üzenet hossza</string>
+    <string name="event_log_billed_messages">fizetett üzenet</string>
+    <string name="event_log_homescreen_shortcut">Esemény történet</string>
+    <string name="stat_list_mode_favorites">A kedvenceket mutatja</string>
+    <string name="stat_list_mode_all">Mindent mutat</string>
+    <string name="calltime_limit_invalid">Nincs érvényes hívás idő limit beállítva</string>
+    <string name="sms_limit_invalid">Nincs érvényes SMS limit beállítva</string>
+    <string name="unit_limit_invalid">Nincs érvényes egység limit (perc) beállítva</string>
+    <string name="unit_sms_limit_invalid">Nincs érvényes egység (sms) limit beállítva</string>
+    <string name="warning_treshold_invalid">Nincs érvényes értesítési küszöb beállítva</string>
+    <string name="costs_limit_invalid">Nincs érvényes költség limit beállítva</string>
+    <string name="menu_exit">Kilépés</string>
+    <string name="menu_help">Névjegy &amp; Segítség</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="menu_log">Esemény napló</string>
+    <string name="menu_import_export">Import/Export</string>
+    <string name="menu_csv_export">Export CSV</string>
+    <string name="about">" "<b>Nitro DroidStats</b>" 
+
+fejlesztette "<b>Michael Ludwig</b>" 
+GUI és támogatás "<b>David Eberlein (v2.0-tól felfelé)</b>" 
+
+ Ha tetszik ez az alkalmazás kérem "<b>támogasson</b>" minket. Tekintse meg a lenti linket. A támogatás lehetővé teszi a konfigurálható widgetek használatát és még sok minden mást. 
+
+ A "<b>frissítésekért</b>" vessen egy pillantást a Market-re
+
+ "<b>Segítség &amp; egyebek:</b>" 
+
+ "<ul> <li>Az alkalmazás különböző widget-ekkel segíti Önt, hogy ne lépje túl az Ön által meghatározott limiteket. Próbálja ki őket !</li>" 
+
+ "<li>A statisztika bármely elemét megérintve megjelenik közülük a Top 3</li>" 
+
+ "<li>Az áttekintésekben egy hüvelykujj szimbólum jelzi, hogy a havi használati adatok alapján a hónap végéig várhatóan túllépi-e a beállított limiteket vagy sem.</li>" 
+
+ "<li>Az adatforgalom számlálás az alkalmazás telepítésével kezdődik majd válik egyre reprezentatívabbá.</li>" 
+
+ "<li>A Froyo féle Apps2SD nem lehetséges azoknál az alkalmazásoknál, amelyek háttérszolgáltatásokat és widget-eket tartalmaznak.</li>" 
+
+ "<li>Ha Ön használ olyan alkalmazásokat mint az <b>AndroidAIR Mail</b> vagy a <b>WebSMS</b> Önnek lehettek olyan extra SMS-ek a kimenő üzenetei között, amelyeket számításba vesz ez az alkalmazás, annak ellenére, hogy azok nem fognak szerepelni az Ön számláján. Kérem ezt vegye figyelembe. </li>" 
+
+ "<li>Ha <b>hibát</b> talál, kérem küldjön email-t nekem (mail.michael.ludwig@gmail.com) vagy írja meg észrevételeit a honlapunkon található fórumon. </li>" 
+
+ "<li>További információkért látogassa meg a Facebook oldalunkat vagy a honlapunkat.</li>" 
+ "</ul>" "</string>
+    <string name="limitsInvalid">Figyelem: Nincs beállítva érvényes küszöb vagy limit</string>
+    <string name="notify_smsLimitReached">SMS limit túllépve</string>
+    <string name="notify_smsLimitNear">Hamarosan eléri az SMS limitet</string>
+    <string name="notify_limitNear">Hamarosan eléri a limitet</string>
+    <string name="notify_limitExceeded">Limit túllépve</string>
+    <string name="notify_smsLimitNearBody">Elérte a havi SMS limitet</string>
+    <string name="notify_smsLimitReachedBody">Túllépte a havi SMS limitet</string>
+    <string name="notify_callLimitReachedBody">Túllépte a havi ingyenes perc limitet</string>
+    <string name="notify_callLimitNearBody">Elérte a havi ingyenes perc limitet</string>
+    <string name="notify_callLimitNear">Hamarosan eléri az ingyenes perc limitet</string>
+    <string name="notify_callLimitReached">Túllépte az ingyenes perc limitet</string>
+    <string name="notify_costsLimitReachedBody">Túllépte a havi költség limitet</string>
+    <string name="notify_costsLimitNearBody">Elérte a havi költség limitet</string>
+    <string name="notify_costsLimitNear">Hamarosan eléri költség limitet</string>
+    <string name="notify_costsLimitReached">Túllépte a költség limitet</string>
+    <string name="notify_unitsLimitReachedBody">Túllépte a havi egység limitet</string>
+    <string name="notify_unitsLimitNearBody">Elérte a havi egység limitet</string>
+    <string name="notify_unitsLimitNear">Hamarosan eléri az egység limitet</string>
+    <string name="notify_unitsLimitReached">Túllépte az egység limitet</string>
+    <string name="button_close">Bezár</string>
+    <string name="cron_picker_monthly_day_of_month_n">A hónap napja: %1$s</string>
+    <string name="contact_or_number">kontakt vagy telefonszám</string>
+    <string name="save_and_return">mentés és vissza</string>
+    <string name="price_per_message">ár / üzenet:</string>
+    <string name="cents">fillér</string>
+    <string name="price_per_minute">ár / perc:</string>
+    <string name="price_per_unit">ár / egység (perc):</string>
+    <string name="use_cost_option">Költség opció használata</string>
+    <string name="use_call_cost_option">hívás költség engedélyezése</string>
+    <string name="use_sms_cost_option">sms költség engedélyezése</string>
+    <string name="use_unit_cost_option">egység költség engedélyezése</string>
+    <string name="cost_settings">Költség beállítások</string>
+    <string name="pref_limits">Havi limitek</string>
+    <string name="pref_limits_sum">A szerződésének megfelelő havi limitek beállítása</string>
+    <string name="pref_calltime_limit">Hívás idő limit</string>
+    <string name="pref_calltime_limit_sum">Kapcsolja be, ha Önnek ingyenes percek állnak a rendelkezésére a szerződése szerint</string>
+    <string name="pref_calltime_free">Ingyenes perc</string>
+    <string name="pref_calltime_free_sum">Az Ön rendelkezésére álló ingyenes perc</string>
+    <string name="pref_sms_limit">SMS Limit</string>
+    <string name="pref_sms_limit_sum">Kapcsolja be, ha Önnek ingyenes SMS-ek állnak a rendelkezésére a szerződése szerint</string>
+    <string name="pref_sms_free">Ingyenes SMS</string>
+    <string name="pref_sms_free_sum">Az Ön rendelkezésére álló ingyenes SMS</string>
+    <string name="pref_month_beginning">Számlázási hónap kezdete</string>
+    <string name="pref_month_beginning_sum">A számlázási hónap első napja az Ön szolgáltatójánál pl. 1</string>
+    <string name="pref_billing">Számlázás</string>
+    <string name="pref_billing_sum">Költségek, számlázás, telefonszám illetve időszak kivételek beállítása</string>
+    <string name="pref_costs">Költség beállítások</string>
+    <string name="pref_costs_sum">SMS, hívás, és adatforgalom tarifa beállítás</string>
+    <string name="pref_billing_increment">Számlázási egység</string>
+    <string name="pref_billing_increment_sum">A szerződése szerinti ( első / minden további ) számlázási egység másodpercben.</string>
+    <string name="pref_free_call_num">Ingyenes számok (Hívások)</string>
+    <string name="pref_free_call_num_sum">Adja meg azokat a telefonszámokat, amelyeket ingyenesen hívhat</string>
+    <string name="pref_free_sms_num">Ingyenes számok (SMS)</string>
+    <string name="pref_free_sms_num_sum">Adja meg azokat a telefonszámokat, amelyekre ingyenesen küldhet SMS-t</string>
+    <string name="pref_split_sms">Hosszú SMS-ek számlálása</string>
+    <string name="pref_split_sms_sum">Számolja a 160 karakternél hosszabb, több részből álló SMS-eket</string>
+    <string name="pref_app">Alkalmazás beállítások</string>
+    <string name="pref_app_sum">Az alkalmazással kapcsolatos beállítások</string>
+    <string name="pref_estimations">Havi várható használat</string>
+    <string name="pref_estimations_sum">Megjeleníti a becsült havi SMS-ek és lebeszélt percek számát a korábbi napok alapján. (a számlázási hónap első hete után)</string>
+    <string name="pref_call_notification">Értesítések a hívásokról</string>
+    <string name="pref_call_notification_sum">Kapcsolja be ha szeretne értesítéseket kapni az állapotsorba amikor eléri vagy túllépi a hívás limitet</string>
+    <string name="pref_sms_notification">Értesítések az SMS-ekről</string>
+    <string name="pref_sms_notification_sum">Kapcsolja be ha szeretne értesítéseket kapni az állapotsorba amikor eléri vagy túllépi az SMS limitet</string>
+    <string name="pref_traffic_notification">Értesítések az adatforgalomról</string>
+    <string name="pref_traffic_notification_sum">Kapcsolja be ha szeretne értesítéseket kapni az állapotsorba amikor eléri vagy túllépi az adatforgalmi limitet</string>
+    <string name="pref_unit_notification">Értesítések az egységekről</string>
+    <string name="pref_unit_notification_sum">Kapcsolja be ha szeretne értesítéseket kapni az állapotsorba amikor eléri vagy túllépi az egység limitet</string>
+    <string name="pref_costs_notification">Értesítések a költségekről</string>
+    <string name="pref_costs_notification_sum">Kapcsolja be ha szeretne értesítéseket kapni az állapotsorba amikor eléri vagy túllépi a költség limitet</string>
+    <string name="pref_threshold">Értesítési küszöb</string>
+    <string name="pref_threshold_sum">Küszöbérték százalékban (%), amely elérésekor figyelmeztetést kap a limitek eléréséről. Jelzés az értesítéseken (ha engedélyezettek) és a folyamatjelző sávok színének változásán keresztül.</string>
+    <string name="pref_advanced">Speciális beállítások</string>
+    <string name="pref_services">Háttérszolgáltatások engedélyezése</string>
+    <string name="pref_services_sum">A tiltásával energiát takarít meg, ha a widgetek illetve a figyelmeztetések nincsenek használatban. Az SMS-ek háttérben történő számlálása sem fog megtörténni.</string>
+    <string name="pref_animaions_off">Animáció tiltása</string>
+    <string name="pref_animaions_off_sum">Lassú eszközökön felgyorsítja az alkalmazás működését (újraindul az alkalmazás)</string>
+    <string name="pref_reset_db">Adatbázis újraépítése</string>
+    <string name="pref_reset_db_sum">Törli majd újraépíti az adatbázist a hívásnapló és a bejövő SMS fiók alapján</string>
+    <string name="pref_reset_db_dialog">"Biztos, hogy újra akarja építeni az adatbázist?
+
+Az adatok ismét létrehozásra kerülnek a hívás napló és a bejövő SMS fiók alapján."</string>
+    <string name="provider_interface_alias_wifi">Wi-Fi</string>
+    <string name="provider_interface_alias_3g">2G/3G Hálózat</string>
+    <string name="provider_interface_alias_ethernet">Ethernet</string>
+    <string name="provider_interface_alias_loopback">Loopback</string>
+    <string name="notification_usage_level_medium_title">Közepes használati szint elérve</string>
+    <string name="notification_usage_level_medium">A mobil adatforgalom (2G/3G) elérte a közepes használati szintet</string>
+    <string name="notification_usage_level_high_title">Magas használati szint elérve</string>
+    <string name="notification_usage_level_high">A mobil adatforgalom (2G/3G) elérte a magas használati szintet</string>
+    <string name="pref_widget">Widget beállítások</string>
+    <string name="pref_widget_sum">A widget-ek testreszabása</string>
+    <string name="pref_widget_micro_stat1">Válassza ki az első számlálót</string>
+    <string name="pref_widget_micro_stat1_sum">Az első (felső) számláló megjelenitése a widget-en.</string>
+    <string name="pref_widget_micro_stat2">Válassza ki a második számlálót</string>
+    <string name="pref_widget_micro_stat2_sum">A második (alsó) számláló megjelenítése a widget-en.</string>
+    <string name="pref_widget_micro_stat3">Válassza ki a harmadik számlálót</string>
+    <string name="pref_widget_micro_stat4">Válassza ki a negyedik számlálót</string>
+    <string name="pref_notification">Értesítések küldése Send Notifications</string>
+    <string name="pref_notificaiont_sum">Kapcsolja be ha szeretne értesítéseket kapni az állapotsorba amikor a megadott limitek közelébe kerül, vagy túllépi azokat</string>
+</resources>

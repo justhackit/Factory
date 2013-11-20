@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@*android:id/background" android:drawable="@drawable/progress_bar_bg" />
+    <item android:id="@*android:id/progress">
+        <clip android:drawable="@drawable/progress_bar_gr" />
+    </item>
+    <item android:id="@*android:id/secondaryProgress">
+        <clip android:drawable="@drawable/progress_bar_ye" />
+    </item>
+    <item android:id="@id/thirdProgress">
+        <clip android:drawable="@drawable/progress_bar_re" />
+    </item>
+    <item android:id="@id/forthProgress">
+        <clip android:drawable="@drawable/progress_bar_empty" />
+    </item>
+</layer-list>

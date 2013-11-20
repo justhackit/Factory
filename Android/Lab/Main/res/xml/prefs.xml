@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/pref_limits" android:summary="@string/pref_limits_sum">
+        <PreferenceCategory android:title="@string/calls_tab">
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:enabled="true" android:title="@string/pref_calltime_limit" android:key="pref_calltime_limit" android:summary="@string/pref_calltime_limit_sum" />
+            <EditTextPreference android:name="Calltime Limit" android:title="@string/pref_calltime_free" android:key="pref_calltime_free" android:summary="@string/pref_calltime_free_sum" android:dependency="pref_calltime_limit" android:defaultValue="100" android:inputType="number" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/sms_tab">
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:enabled="true" android:title="@string/pref_sms_limit" android:key="pref_sms_limit" android:summary="@string/pref_sms_limit_sum" />
+            <EditTextPreference android:name="SMS Limit" android:title="@string/pref_sms_free" android:key="pref_sms_free" android:summary="@string/pref_sms_free_sum" android:dependency="pref_sms_limit" android:defaultValue="150" android:inputType="number" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/data">
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_traffic_limit" android:key="pref_traffic_limit" android:summary="@string/pref_traffic_limit_sum" />
+            <Preference android:title="@string/pref_traffic_free" android:key="pref_traffic_free" android:summary="@string/pref_traffic_free_sum" android:dependency="pref_traffic_limit" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/units_category">
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_unit_limit" android:key="pref_unit_limit" android:summary="@string/pref_unit_limit_sum" />
+            <EditTextPreference android:title="@string/pref_units_free" android:key="pref_units_free" android:summary="@string/pref_units_free_sum" android:dependency="pref_unit_limit" android:defaultValue="100" android:inputType="number" />
+            <EditTextPreference android:title="@string/pref_units_sms_free" android:key="pref_units_sms_free" android:summary="@string/pref_units_sms_free_sum" android:dependency="pref_unit_limit" android:defaultValue="100" android:inputType="number" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/costs">
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_costs_limit" android:key="pref_costs_limit" android:summary="@string/pref_costs_limit_sum" />
+            <EditTextPreference android:title="@string/pref_costs_free" android:key="pref_costs_free" android:summary="@string/pref_costs_free_sum" android:dependency="pref_costs_limit" android:defaultValue="20" android:inputType="numberDecimal" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/general">
+            <Preference android:title="@string/pref_month_beginning" android:key="pref_month_beginning" android:summary="@string/pref_month_beginning_sum" android:defaultValue="1" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_billing" android:summary="@string/pref_billing_sum">
+        <Preference android:title="@string/pref_costs" android:key="pref_costs" android:summary="@string/pref_costs_sum">
+            <intent android:action="nitro.phonestats.action.COSTSETTINGS" />
+        </Preference>
+        <PreferenceCategory android:title="@string/calls_tab">
+            <ListPreference android:entries="@array/timing_choices" android:title="@string/pref_billing_increment" android:key="pref_billing_increment" android:summary="@string/pref_billing_increment_sum" android:defaultValue="1" android:entryValues="@array/timing_values" />
+            <Preference android:title="@string/pref_free_call_num" android:key="pref_free_call_num" android:summary="@string/pref_free_call_num_sum">
+                <intent android:action="nitro.phonestats.action.EXCLUDECONTACTS">
+                    <extra android:name="type" android:value="calls" />
+                </intent>
+            </Preference>
+            <Preference android:title="@string/pref_free_times" android:key="pref_free_times" android:summary="@string/pref_free_times_sum">
+                <intent android:action="nitro.phonestats.action.EXCLUDETIMES" />
+            </Preference>
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_billIncomingCalls" android:key="pref_bill_incoming" android:summary="@string/pref_billIncomingCalls_sum" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="SMS">
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_split_sms" android:key="pref_split_sms" android:summary="@string/pref_split_sms_sum" android:defaultValue="true" />
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_use_unicode_sms_split" android:key="pref_use_unicode_sms_split" android:summary="@string/pref_use_unicode_sms_split_sum" android:dependency="pref_split_sms" android:defaultValue="false" />
+            <Preference android:title="@string/pref_free_sms_num" android:key="pref_free_sms_num" android:summary="@string/pref_free_sms_num_sum">
+                <intent android:action="nitro.phonestats.action.EXCLUDECONTACTS">
+                    <extra android:name="type" android:value="sms" />
+                </intent>
+            </Preference>
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_billIncomingSMS" android:key="pref_bill_incoming_sms" android:summary="@string/pref_billIncomingSMS_sum" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_app" android:summary="@string/pref_app_sum">
+        <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_estimations" android:key="pref_estimations" android:summary="@string/pref_estimations_sum" android:defaultValue="true" />
+        <nitro.phonestats.settings.WarningTresholdPreference android:title="@string/pref_threshold" android:key="pref_threshold" android:summary="@string/pref_threshold_sum" android:defaultValue="85" />
+        <PreferenceCategory android:title="@string/pref_notifications_cat">
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_call_notification" android:key="pref_use_call_notification" android:summary="@string/pref_call_notification_sum" android:dependency="pref_services" android:defaultValue="true" />
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_sms_notification" android:key="pref_use_sms_notification" android:summary="@string/pref_sms_notification_sum" android:dependency="pref_services" android:defaultValue="true" />
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_traffic_notification" android:key="pref_use_traffic_notification" android:summary="@string/pref_traffic_notification_sum" android:dependency="pref_services" android:defaultValue="true" />
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_unit_notification" android:key="pref_use_unit_notification" android:summary="@string/pref_unit_notification_sum" android:dependency="pref_services" android:defaultValue="true" />
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_costs_notification" android:key="pref_use_costs_notification" android:summary="@string/pref_costs_notification_sum" android:dependency="pref_services" android:defaultValue="true" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/pref_gui">
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_useHoursDisplay" android:key="pref_useHoursDisplay" android:summary="@string/pref_useHoursDisplay_sum" android:defaultValue="false" />
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_animaions_off" android:key="pref_animations_off" android:summary="@string/pref_animaions_off_sum" android:defaultValue="false" />
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_forceEnglish" android:key="pref_forceEnglish" android:summary="@string/pref_forceEnglish_sum" android:defaultValue="false" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/pref_advanced">
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_services" android:key="pref_services" android:summary="@string/pref_services_sum" android:defaultValue="true" />
+            <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_alternativepattern" android:key="pref_alternativepattern" android:summary="@string/pref_alternativepattern_sum" android:defaultValue="false" />
+            <ListPreference android:entries="@array/upateIntervallTraffic_choices" android:title="@string/pref_upateIntervallTraffic" android:key="pref_update_intervall_traffic" android:summary="@string/pref_upateIntervallTraffic_sum" android:defaultValue="30" android:entryValues="@array/upateIntervallTraffic_values" />
+            <nitro.phonestats.settings.ListPreferenceWithLongSummary android:entries="@array/updateIntervallSMS_choices" android:title="@string/pref_upateIntervallSMS" android:key="pref_update_intervall_sms" android:summary="@string/pref_upateIntervallSMS_sum" android:defaultValue="90" android:entryValues="@array/updateIntervallSMS_values" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_actions" android:key="pref_actions" android:summary="@string/pref_actions_sum">
+        <Preference android:title="@string/pref_reset_db" android:key="pref_reset_db" android:summary="@string/pref_reset_db_sum" />
+        <Preference android:title="@string/pref_manual_correction" android:key="pref_manual_correction" android:summary="@string/pref_manual_correction_sum" />
+        <nitro.phonestats.settings.CountryCodeCorrectionPreference android:title="@string/pref_ccc_title" android:key="pref_country_code" android:summary="@string/pref_ccc_sum" android:defaultValue="49" />
+        <PreferenceCategory android:title="@string/pref_importexport" android:key="pref_actions_importexport">
+            <Preference android:title="@string/pref_export_config" android:key="pref_export_config" android:summary="@string/pref_export_config_sum" />
+            <Preference android:title="@string/pref_export_data" android:key="pref_export_data" android:summary="@string/pref_export_data_sum" />
+            <Preference android:title="@string/pref_import_config" android:key="pref_import_config" android:summary="@string/pref_import_config_sum" />
+            <Preference android:title="@string/pref_import_data" android:key="pref_import_data" android:summary="@string/pref_import_data_sum" />
+            <Preference android:title="@string/pref_export_csv" android:key="pref_export_csv" android:summary="@string/pref_export_csv_sum" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_widget" android:key="pref_widget" android:summary="@string/pref_widget_sum">
+        <PreferenceCategory android:title="@string/pref_widget_values">
+            <PreferenceScreen android:title="@string/pref_widget_1x1" android:key="pref_widget_1x1">
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat1" android:key="pref_widget_micro_stat1" android:summary="@string/pref_widget_micro_stat1_sum" android:defaultValue="free_min" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat2" android:key="pref_widget_micro_stat2" android:summary="@string/pref_widget_micro_stat2_sum" android:dependency="pref_use1SlotWidget" android:defaultValue="free_sms" android:entryValues="@array/stat_values" />
+                <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_use1SlotWidget" android:key="pref_use1SlotWidget" android:summary="@string/pref_use1SlotWidget_sum" android:defaultValue="false" android:disableDependentsState="true" />
+                <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_showunits" android:key="pref_widget_1x1_oneslot_unitsadded" android:summary="@string/pref_widget_1x1_oneslot_unitsadded_sum" android:defaultValue="true" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/pref_widget_2x1" android:key="pref_widget_2x1">
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat1" android:key="pref_widget_2x1_stat1" android:defaultValue="free_min" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat2" android:key="pref_widget_2x1_stat2" android:defaultValue="free_sms" android:entryValues="@array/stat_values" />
+                <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_showunits" android:key="pref_widget_2x1_unitsadded" android:defaultValue="true" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/pref_widget_3x1" android:key="pref_widget_3x1">
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat1" android:key="pref_widget_3x1_stat1" android:defaultValue="free_min" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat2" android:key="pref_widget_3x1_stat2" android:defaultValue="free_sms" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat3" android:key="pref_widget_3x1_stat3" android:defaultValue="free_mobile_data" android:entryValues="@array/stat_values" />
+                <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_showunits" android:key="pref_widget_3x1_unitsadded" android:defaultValue="true" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/pref_widget_4x1" android:key="pref_widget_4x1">
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat1" android:key="pref_widget_4x1_stat1" android:defaultValue="free_min" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat2" android:key="pref_widget_4x1_stat2" android:defaultValue="free_sms" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat3" android:key="pref_widget_4x1_stat3" android:defaultValue="free_mobile_data" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat4" android:key="pref_widget_4x1_stat4" android:defaultValue="costs_combined" android:entryValues="@array/stat_values" />
+                <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_showunits" android:key="pref_widget_4x1_unitsadded" android:defaultValue="true" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/pref_status_bar_widget" android:key="pref_status_bar_widget">
+                <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_widget_use_statusbarwidget" android:key="pref_widget_use_statusbarwidget" android:summary="@string/pref_widget_statusbarwidget_sum" android:defaultValue="false" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat1" android:key="pref_status_bar_widget_stat1" android:defaultValue="free_min" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat2" android:key="pref_status_bar_widget_stat2" android:defaultValue="free_sms" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat3" android:key="pref_status_bar_widget_stat3" android:defaultValue="free_mobile_data" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/stat_choices" android:title="@string/pref_widget_micro_stat4" android:key="pref_status_bar_widget_stat4" android:defaultValue="costs_combined" android:entryValues="@array/stat_values" />
+                <ListPreference android:entries="@array/statusBarWidgetThemes" android:title="@string/pref_status_bar_widget_theme" android:key="pref_status_bar_widget_theme" android:defaultValue="0" android:entryValues="@array/statusBarWidgetThemes_values" />
+                <nitro.phonestats.settings.CheckBoxPreferenceWithLongSummary android:title="@string/pref_showunits" android:key="pref_status_bar_widget_unitsadded" android:defaultValue="true" />
+            </PreferenceScreen>
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/pref_widget_other">
+            <nitro.phonestats.settings.WidgetTransparencyPreference android:title="@string/pref_widget_transparency" android:key="pref_widget_transparency" android:summary="@string/pref_widget_transparency_sum" android:defaultValue="100" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Debug" android:key="pref_debug">
+        <Preference android:title="Interfaceinfo" android:key="pref_debug_interfaces" />
+        <Preference android:title="Call-Events" android:key="pref_debug_calls" />
+        <Preference android:title="SMS-Events" android:key="pref_debug_sms" />
+        <Preference android:title="Call-Events (native)" android:key="pref_debug_calls_native" />
+        <Preference android:title="SMS-Events (native)" android:key="pref_debug_sms_native" />
+        <Preference android:title="Previous Months" android:key="pref_debug_history" />
+    </PreferenceScreen>
+</PreferenceScreen>

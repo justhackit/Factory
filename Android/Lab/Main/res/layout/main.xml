@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_grey" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <HorizontalScrollView android:id="@id/TabScrollView" android:focusable="false" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="horizontal" android:id="@id/TabButtonHost" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RadioButton android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/TabOverviewBtn" android:background="@drawable/btn_tab" android:focusable="false" android:button="@drawable/spacer_empty" android:minWidth="120.0dip" android:text="@string/overview" />
+                <RadioButton android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/TabCallsBtn" android:background="@drawable/btn_tab" android:focusable="false" android:button="@drawable/spacer_empty" android:minWidth="120.0dip" android:text="@string/calls_tab" />
+                <RadioButton android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/TabSMSBtn" android:background="@drawable/btn_tab" android:focusable="false" android:button="@drawable/spacer_empty" android:minWidth="120.0dip" android:text="@string/sms_tab" />
+                <RadioButton android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/TabTrafficBtn" android:background="@drawable/btn_tab" android:focusable="false" android:button="@drawable/spacer_empty" android:minWidth="120.0dip" android:text="@string/data_tab" />
+            </RadioGroup>
+        </HorizontalScrollView>
+        <ViewFlipper android:id="@id/TabContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <nitro.phonestats.view.OverviewView android:id="@id/OverviewView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <nitro.phonestats.view.CallsView android:id="@id/CallsView" android:background="@drawable/bg_tab_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <nitro.phonestats.view.SmsView android:id="@id/SmsView" android:background="@drawable/bg_tab_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <nitro.phonestats.view.TrafficView android:id="@id/TrafficView" android:background="@drawable/bg_tab_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </ViewFlipper>
+    </LinearLayout>
+    <include android:layout_gravity="bottom" android:id="@id/ProgressOverlay_ref" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/progressoverlay" />
+</merge>

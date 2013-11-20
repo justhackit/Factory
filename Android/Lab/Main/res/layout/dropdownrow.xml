@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/toptext_dropwdown" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="top" android:singleLine="true" android:layout_weight="1.0" />
+    <TextView android:textColor="#ff333333" android:ellipsize="marquee" android:id="@id/bottomtext_dropwdown" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="bottom" android:singleLine="true" android:layout_weight="1.0" />
+</LinearLayout>

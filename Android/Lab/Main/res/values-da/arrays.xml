@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timing_choices">
+        <item>60/10</item>
+        <item>60/1</item>
+        <item>1/1 (sekundafregnet)</item>
+        <item>60/60 (minutafregnet)</item>
+        <item>60/30</item>
+        <item>10/10</item>
+        <item>30/1</item>
+        <item>30/6</item>
+        <item>30/10</item>
+        <item>30/30</item>
+        <item>45/1</item>
+        <item>60/15</item>
+        <item>3600/3600 (timeafregnet)</item>
+    </string-array>
+    <string-array name="stat_choices">
+        <item>Gratis minutter</item>
+        <item>"Gratis SMS'er"</item>
+        <item>Gratis MB mobildata</item>
+        <item>Gratis enheder</item>
+        <item>Tilbageværende beløb</item>
+        <item>Totalbeløb</item>
+        <item>Udgående min. (total)</item>
+        <item>Udgående min. (måned)</item>
+        <item>Udgående betalte min. (total)</item>
+        <item>Udgående betalte min. (måned)</item>
+        <item>Udgående opkald (total)</item>
+        <item>Udgående opkald (måned)</item>
+        <item>Indgående min. (total)</item>
+        <item>Indgående min. (måned)</item>
+        <item>Indgående opkald (total)</item>
+        <item>Indgående opkald (måned)</item>
+        <item>Fejlede opkald (total)</item>
+        <item>Fejlede opkald (måned)</item>
+        <item>Mistede opkald (total)</item>
+        <item>Mistede opkald (måned)</item>
+        <item>Opkaldspriser</item>
+        <item>"SMS'er sendt (total)"</item>
+        <item>"Betalings-SMS'er sendt (måned)"</item>
+        <item>"Betalings-SMS'er sendt (total)"</item>
+        <item>"SMS'er sendt (måned)"</item>
+        <item>"SMS'er modtaget (total)"</item>
+        <item>"SMS'er modtaget (måned)"</item>
+        <item>SMS-priser</item>
+        <item>Mobildata i dag</item>
+        <item>Mobildata i denne måned</item>
+        <item>Mobildata totalt</item>
+        <item>Mobildata-priser</item>
+        <item>Wifi-data i dag</item>
+        <item>Wifi-data i denne måned</item>
+        <item>Wifi-data totalt</item>
+        <item>Forventet antal minutter</item>
+        <item>"Forventet antal SMS'er"</item>
+        <item>Forventet antal enheder</item>
+        <item>Forventet dataforbrug</item>
+        <item>Forventet beløb</item>
+        <item>Remaining Days (Month)</item>
+    </string-array>
+    <string-array name="hours">
+        <item>Midnat</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>Midnat (næste dag)</item>
+    </string-array>
+    <string-array name="upateIntervallTraffic_choices">
+        <item>Hvert kvarter (mest præcis)</item>
+        <item>Hver halve time (standard)</item>
+        <item>Hver time (sparer strøm)</item>
+    </string-array>
+    <string-array name="updateIntervallSMS_choices">
+        <item>45 minutter (mest strøm)</item>
+        <item>90 minutter (standard)</item>
+        <item>6 timer (mindst strøm)</item>
+    </string-array>
+    <string-array name="statusBarWidgetThemes">
+        <item>Lys</item>
+        <item>Mørk</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>Mandag</item>
+        <item>Tirsdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lørdag</item>
+        <item>Søndag</item>
+        <item>Hverdag (Man-Fre)</item>
+        <item>Weekend</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="9.0pt" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="Warning Treshold" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0pt" android:id="@id/valueView" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="0" android:layout_below="@id/label" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <SeekBar android:id="@id/seek" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="8.0dip" android:layout_toRightOf="@id/valueView" android:layout_below="@id/label" android:layout_alignTop="@id/valueView" />
+</merge>
