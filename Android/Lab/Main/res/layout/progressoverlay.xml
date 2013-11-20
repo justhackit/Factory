@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/ProgressOverlay" android:background="@drawable/bg_progress_dialog" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:quickinfo="http://schemas.android.com/apk/res/nitro.phonestats">
-    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progressBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" />
-    <TextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/ProgressText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Analysing" android:layout_weight="1.0" />
-</LinearLayout>
