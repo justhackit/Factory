@@ -166,3 +166,16 @@ org.eclipse.core.internal.resources.ResourceException: A resource already exists
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2013-11-20 20:38:00.629
 !MESSAGE The project description file (.project) for 'MyFirstApp' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2013-11-20 21:00:14.561 -----------------------------------------------
+eclipse.buildId=v22.2.1-833290
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -product com.android.ide.eclipse.adt.package.product -product com.android.ide.eclipse.adt.package.product -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product -product com.android.ide.eclipse.adt.package.product -product com.android.ide.eclipse.adt.package.product -data /home/chinna/Factory/Android/Lab -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-11-20 21:00:22.533
+!MESSAGE projectOpenedWithWorkspace: failed to find manifest package for project MyFirstApp
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-11-20 21:00:25.261
+!MESSAGE Failed to load properties file for project 'MyFirstApp'
