@@ -303,3 +303,50 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2013-11-20 21:36:12.569 -----------------------------------------------
+eclipse.buildId=v22.2.1-833290
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.core.resources 4 2 2013-11-20 21:36:28.541
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.typeToRecord(CompilationUnitScope.java:787)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.recordTypeReference(CompilationUnitScope.java:687)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1120)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1025)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getBinding(Scope.java:1721)
+	at org.eclipse.jdt.internal.compiler.ast.FieldDeclaration.resolve(FieldDeclaration.java:175)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1098)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1263)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1061)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1272)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:561)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:770)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:679)
+
+!ENTRY org.eclipse.core.resources 4 75 2013-11-20 21:36:28.737
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2013-11-20 21:36:28.737
+!MESSAGE Errors running builder 'Java Builder' on project 'Main'.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.typeToRecord(CompilationUnitScope.java:787)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.recordTypeReference(CompilationUnitScope.java:687)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1120)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1025)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getBinding(Scope.java:1721)
+	at org.eclipse.jdt.internal.compiler.ast.FieldDeclaration.resolve(FieldDeclaration.java:175)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1098)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1263)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1061)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1272)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:561)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:770)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Thread.java:679)
