@@ -31,7 +31,7 @@ public class SalHikeCalc extends Activity {
         setContentView(R.layout.main);
         Log.v("Ajay", "On Create");
         amtEt=(EditText)this.findViewById(R.id.amtEt);
-        amtEt.setText("3.53");
+        amtEt.setText("5.00");
         perEt=(EditText)this.findViewById(R.id.discEt);
         perEt.setText("15");
         newSalEt=(EditText)this.findViewById(R.id.newsalEt);
