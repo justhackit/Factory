@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.appsnagar.MyReMind" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="8" />
+
+	<application android:icon="@drawable/myremind1" android:label="@string/app_name"
+		android:name=".MyReMindApp">
+		<activity android:name=".HomeScreen" android:label="MyReMind">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".AddEventScreen" android:label="Add an Event"></activity>
+		<activity android:name=".EditEventScreen" android:label="Edit Event"></activity>
+		<activity android:name=".ShowEventScreen" android:label="Event triggered"></activity>
+		<activity android:name=".ViewEventScreen" android:label="Registered Events"></activity>
+		<activity android:name=".DeleteEventScreen" android:label="Tap on an event to delete"></activity>		
+		<activity android:name=".EventActiveScreen" android:label="Event is active"></activity>
+		<service android:name=".CheckerService" />
+		<receiver android:name=".BootReceiver">
+		<intent-filter>
+		<action android:name="android.intent.action.BOOT_COMPLETED" />
+		</intent-filter>
+		</receiver>
+	</application>
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+</manifest>

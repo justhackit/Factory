@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="recurrence">
+		<item>Once</item>
+		<item>Hour</item>
+		<item>Day</item>
+		<item>Week</item>
+		<item>Month</item>
+		<item>Year</item>
+	</string-array>
+
+	<string-array name="remind_after">
+		<item>Remind after...</item>
+		<item>5 Minutes</item>
+		<item>15 Minutes</item>
+		<item>30 Minutes</item>
+		<item>1 Hour</item>
+		<item>2 Hours</item>
+		<item>Tomorrow</item>		
+	</string-array>
+</resources>

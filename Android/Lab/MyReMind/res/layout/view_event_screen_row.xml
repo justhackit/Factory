@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:orientation="vertical">
+  <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" >
+      <TextView android:layout_height="wrap_content"
+      	android:layout_width="fill_parent" android:layout_weight="1"
+      	android:id="@+id/eventNameRow" android:text="EventName"
+      	android:textStyle="bold"  android:textColor="#00ff00"/>
+      <TextView android:layout_height="wrap_content"
+      	android:layout_width="fill_parent" android:layout_weight="1"
+      	android:gravity="right" android:id="@+id/eventAtRow"
+      	android:text="StartingAt" />
+  </LinearLayout>
+  	<TextView android:layout_height="wrap_content"
+  	android:layout_width="fill_parent" android:id="@+id/forEveryRow"
+  	android:text="Recurrence" />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/what" android:layout_width="wrap_content"
+		android:layout_weight="1"
+			android:layout_height="wrap_content" />
+		<EditText android:layout_width="fill_parent" android:inputType="textCapSentences"
+		android:layout_weight="1"
+			android:layout_height="wrap_content" android:id="@+id/event_name" />
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/when" android:layout_width="wrap_content"
+		android:layout_weight="1"
+			android:layout_height="wrap_content" />
+		<Button android:id="@+id/date_btn" android:text="Date"
+		android:layout_weight="1"
+			style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<Button android:id="@+id/time_btn" android:text="Time"
+		android:layout_weight="1"
+			style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/for_every"
+		android:layout_weight="1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<Spinner android:id="@+id/spinner" android:layout_width="match_parent"
+		android:layout_weight="1"
+			android:layout_height="wrap_content" android:drawSelectorOnTop="true"
+			android:prompt="@string/spinner_prompt" />
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/priority_text"
+		android:layout_weight="1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<ToggleButton android:id="@+id/togglebutton"
+		android:layout_weight="1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textOn="Yes" android:textOff="No" />
+	</LinearLayout>
+	<Button android:id="@+id/edit_btnEd" android:layout_width="match_parent"	
+		android:layout_height="wrap_content" android:text="Edit Event"
+		 android:layout_gravity="bottom" />
+</LinearLayout>

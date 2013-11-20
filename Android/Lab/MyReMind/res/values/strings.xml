@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">MyReMind</string>
+    <string name="what"><b>Event Name:</b></string>
+    <string name="when"><b>Remind From:</b></string>
+    <string name="for_every"><b>Recurrence:</b></string>
+    <string name="date_btn_text"><b>Date</b></string>
+    <string name="time_btn_text"><b>Time</b></string>
+    <string name="add_btn_text"><b>ADD EVENT</b></string>
+    <string name="spinner_prompt"><b>Remind for every:</b></string>
+    <string name="remind_after_spinner_prompt"><b>Remind after:</b></string>
+    <string name="priority_text"><b>Is this event very important?</b></string>
+
+</resources>
