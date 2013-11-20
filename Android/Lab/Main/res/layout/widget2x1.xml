@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/appwidget_bg" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center" android:id="@id/widget2" android:background="@drawable/appwidget_bg_empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_first" android:background="@drawable/appwidget_button_left" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_first" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/ic_call" android:scaleType="center" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@id/txt_first" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="- min" android:layout_weight="1.0" style="@style/Text.Widget" />
+            <FrameLayout android:id="@id/bar_call_container" android:layout_width="fill_parent" android:layout_height="10.0dip">
+                <ProgressBar android:id="@id/bar_call_good" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progress="25" android:secondaryProgress="0" android:indeterminate="false" android:indeterminateOnly="false" android:progressDrawable="@drawable/appwidget_bar_left_good" />
+                <ProgressBar android:id="@id/bar_call_warn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progress="0" android:secondaryProgress="0" android:indeterminate="false" android:indeterminateOnly="false" android:progressDrawable="@drawable/appwidget_bar_left_warn" />
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:background="@drawable/appwidget_settings_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_second" android:background="@drawable/appwidget_button_right" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/img_second" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/ic_sms" android:scaleType="center" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@id/txt_second" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="- sms" android:layout_weight="1.0" style="@style/Text.Widget" />
+            <FrameLayout android:id="@id/bar_sms_container" android:layout_width="fill_parent" android:layout_height="10.0dip">
+                <ProgressBar android:id="@id/bar_sms_good" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progress="25" android:secondaryProgress="0" android:indeterminate="false" android:indeterminateOnly="false" android:progressDrawable="@drawable/appwidget_bar_right_good" />
+                <ProgressBar android:id="@id/bar_sms_warn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progress="0" android:secondaryProgress="0" android:indeterminate="false" android:indeterminateOnly="false" android:progressDrawable="@drawable/appwidget_bar_right_warn" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

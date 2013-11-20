@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: DroidStats_3.5.3.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '10'
+packageInfo:
+  cur_package: nitro.phonestats
+  orig_package: nitro.phonestats
+compressionType: false

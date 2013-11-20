@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_text">"v3.5.2:
+ - Fix für SGS2 mit Android 4.0.4
+ - Kleinere Fixes und Verbesserungen
+ 
+
+ v3.5.1:
+ - FIX: Interface noch nicht gefunden - Problem für fast die meisten Probleme gelöst. Betroffene müssen hierfür die App neuinstallieren
+ 
+
+ v3.5.0:
+ - FIX: Verbindungsaufbaugebühr (Connection Fee) wird nichtmehr bei Freinummern und Freizeiten berechnet
+ - Verbindungsaufbaugebühr nun auch mit Gesprächszeitlimit kombinierbar
+ - neue Netzwerkinterfaces hinzugefügt (auch Motorola Razr)
+ - Kleine und interne Verbesserungen
+ 
+
+ v3.4.2:
+ - Tschechische Version hinzugefügt
+ - Polnische Version erneuert
+ 
+
+ v3.4.0:
+ - Sie können nun Grundgebühren eingeben (z.B. für die Kostenlimits)
+ - Sie können nun Verbindungsgebühren für Gespräche eingeben
+ - SMS können nun auch bei 80 Zeichen gesplitted werden (Unicode)
+ - Hübscherer Widget Dialog
+ - Ungarische Übersetzung hinzugefügt
+ - Hardwarebeschleunigung für Android Honeycomb
+ - Fehlerbehebungen
+ 
+
+ v3.3.3:
+ - nun auch für Honeycomb Tablets im Market sichtbar (keine angepasste Oberfläche)
+ - Fix der eine falsche Dateninterfaceerkennung verhindert die in manchen Fällen zu \"hängenden\" Zählern geführt haben 
+ 
+
+ v3.3.2:
+ - kleine Fixes
+ 
+
+ v3.3.1:
+ - kleine Fixes für polnische und griechische Version
+ 
+
+ v3.3.0:
+ - added minutes/sms exchange (unit limit)
+ - added support for newer samungs devices and firmwares
+ - added another Wifi interface
+ - added SMS polling. This is more reliable, but does not give Just-in-time updating of SMS (for widgets and notifications). Default is 90 minutes. Raise that value if you don't send much SMS. The old Just-in-Time updating did not work well on some firmwares, probably because it is not an offical API.
+ - added possibility to enable sms and call costs independently
+ - added possibility to enable different notifications independently
+ - added interface reset option for people with data usage counting problems
+ - improved swipe and tab-switching performance
+ - added thumbs visualization of estimation
+ - added polish translation
+ - greek translation refreshed
+ - fixed a exception
+ 
+
+ v3.2.2:
+ - Kostenlimits hinzugefügt
+ - Kostenabschätzung hinzugefügt
+ - Datenverbrauchssupport für LG Optimus 2X
+ - Performanzverbesserungen
+ - dänische Übersetzung hinzugefügt
+ 
+
+ v3.2.1:
+ - spanische Übersetzung hinzugefügt
+ - Bugfix hinzugefügt
+ 
+
+ v3.2.0:
+ - Geschwindigkeitsverbesserungen
+ - Einige neue Icon
+ - Neues Widgetcaching (sollten nun besser updaten)
+ - 3600/3600 und 60/15 Taktung hinzugefügt
+ 
+
+ v3.1.3:
+ - kleinere und größere Fehlerbehebungen
+ 
+
+ v3.1.2:
+ - Bugfix für Android 1.6 Geräte
+ 
+
+ v3.1.1:
+ - russische Übersetzung hinzugefügt
+ 
+
+ v3.1.0:
+ - Mehr Geräte werden erkannt und auch zukünftige Geräte (hoffentlich). Falls bei der Erkennung trotzdem was schief läuft, die Appdaten aus dem Anwendungsmenü löschen.
+ - Möglichkeit Gesprächzeit im Stunden/Minuten-Format anzuzeigen
+ - Zwei neue Durschnittsstatisken für Gesprächslänge und SMS-Länge
+ - einige Performanzverbesserungen
+ 
+
+ v3.0.4:
+ - Aktualierungsintervall für Datenverbrauchszählung einstellbar
+ - Funktion für manuelle Korrektur der Daten hinzugefügt
+ - Samsungs Intercept Datenverbrauchszählung hinzugefügt (benötigt Neuinstallation)
+ - Sony Ericsson Xperia X10i (andere Version) Datenverbrauchszählung hinzugefügt (benötigt Neuinstallation)
+ - Samsung Captivate (andere Version) Datenverbrauchszählung hinzugefügt (benötigt Neuinstallation)
+ 
+
+ v3.0.3:
+ - Fehlerbehebung für einige Geräte die Probleme mit den Freinummern hatten
+ - Es lassen sich nun auch Nummern mit Patterns ausschließen die nicht in den Kontakten sind
+ - Motorola Droid 2 Datenverbrauchszählung hinzugefügt (benötigt Neuinstallation)
+ - Sony Ericsson Xperia X10i (andere Version) Datenverbrauchszählung hinzugefügt (benötigt Neuinstallation)
+ - Fix für Samsung Galaxy Tab Datenverbauchszählung-Support (benötigt Neuinstallation , sorry ;-) )
+ 
+
+ v3.0.2:
+ - Griechische Übersetzung hinzugefügt
+ - Chinesische Übersetzung hinzugefügt
+ 
+
+ v3.0.1:
+ - Bug behoben bei dem auf Android 1.6 die Settings crashen 
+ - Unterstützung von vielen neuen Geräten für die Datenverbrauchskontrolle (benötigt Neuinstallation): 
+ - HTC Liberty/Aria unterstützt
+ - HTC Desire HD unterstützt
+ - HTC HD2 unterstützt
+ - Samsung Captivate unterstützt
+ - Samsung Galaxy Tab unterstützt
+ - Motorola Milestone 2 unterstützt
+ 
+
+ v3.0.0:
+ - eingehende Anrufe und SMS auch für Limits nutzbar 
+ - Listen-Performanz verbessert 
+ - neuer nicht-modularer \"Analyse\"-Dialog
+ - Neue Übersichtsview :-D
+ - neues Statiskfavoritensystem
+ 
+
+ v2.2.6:
+ - Unterschiedlich gefärbte Widgetprogressbars 
+ - Samsung GT-I9000B und Samsung Vibrant (GT-I5500B) Datenverbrauchszählung hinzufgefügt (benötigt Neuinstallation) 
+ - Fix für vertauschte Up- und Downloadzahl aus letzter Version
+ - Fix für nicht dargestellte Tabs in QVGA Geräten
+ - Wieder Widgetunterstützung für Android 1.5
+ 
+
+ v2.2.5:
+ - Motorola Droid X Datenverbrauchszählung hinzugefügt (benötigt Neuinstallation)
+ - interne Code-Änderungen
+ 
+
+ v2.2.4:
+ - Transparenz der Widgets wieder rausgenommen (kommt wieder). Widgetbugs hoffentlich behoben
+ - 4 neue Statistiken über Durschnitssverbauch von SMS und Gesprächen hinzugefügt
+ - WidgetInfo Dialog der anzeigt was für Daten auf dem Widget angezeigt werden
+ - Mehr QuickInfos zum besseren Verständniss einiger Optionen
+ - LG GT540 und Sony Ericsson X10i Datenverbrauchszählung hinzugefügt (benötigt Neuinstallation)
+ 
+
+ v2.2.3:
+ - 2x1-Widget Bug behoben
+ 
+
+ v2.2.2:
+ - Schnellere Analyse
+ - Nummernbereinigung (präziseres Zählen der Pro-Nummern-Zählungen und präzisere Nummernfilterung) 
+ - Landesvorwahlkorrektur (präziseres Zählen der Pro-Nummern-Zählungen und präzisere Nummernfilterung) 
+ - schönere Info-Dialoge 
+ - Bugfix zu einem FC bei \"Freie Stunden/Tage\"-Filter 
+ 
+
+ v2.2.1:
+ - kritischer Bug behoben
+ 
+
+ v2.2.0:
+ - \"Englisch erzwingen\"-Button für andere Sprachen
+ - WLAN Statistiken sollten nun fürs HTC Desire, HTC Widlfire und HTC Evo funktionieren (Neuinstallation nötig)
+ - \"Freie Stunden/Tage-Filter\" hinzugefügt (momentan noch nicht für an den Zeitgrenzen überlappenden Anrufe)
+ - Datentab-Darstellung verbessert
+ - Es lassen sich nun auch Daten-Limits wie z.B. 1500 MB eingeben
+ 
+
+ v2.1.3:
+ - deutsche Übersetzung
+ 
+
+ v2.1.2:
+ - alle Währungen werden erkant
+ - \"Hängende Synchronisierung\"-Bug beseitigt
+ 
+
+ v2.1.1:
+ - 2 neue Samsung Geräte werden unterstützt
+ - Balkenfehler bei hohen Limits beseitigt 
+ - kleinere Verbesserungen
+ 
+
+ v2.1.0:
+ - Datenverkehrsfeature eingeführt
+ (Achtung dieses Feature ist Momentan noch im BETA-Status. Fehler bitte per EMail melden)
+ - 3x1 Widget mit Datenverkehrsmenge
+ - Nutzung des Kostenfeature auch mit ausgeschalteten Limits möglich"</string>
+    <string name="update_text_premium">"v3.5.3:
+ - Statusbar-Widget wieder sichtbar
+ 
+
+ v3.5.2:
+ - Statistik für die verbleibenden Tage im Rechnungsmonat für die Widgets
+ - Vorbereitungen für ein zukünftiges Feature
+ 
+
+ v3.4.2:
+ - Kuchendiagramme für einige Minuten- und SMS-Statistiken 
+ 
+
+ v3.4.0:
+ - 2 neue Statistiken für die Widgets (billed sms sent month/total)
+ - Klick auf Widget sollte nun dynamisch für alle Arten von Statistiken sein (führen zum richtigen Tab im Programm)
+ - Unterschiedliche Icons für Costs Stats um besser zwischen diesen unterscheiden zu können
+ - Sichern und Wiederherstellen der Konfiguration
+ - Sichern und Wiederherstellen der SMS und Gesprächsdaten
+ - Exportieren der SMS und Gesprächsevents in eine lesbare CSV-Datei
+ 
+
+ v3.3.0:
+ - added event log (BETA-feature)
+ - added homescreen shortcut for event-log
+ - 7 new stats selectable in widgets
+ 
+
+ v3.2.1:
+ - Homescreen Verknüpfung zur Daten-per-App Aktivität
+ 
+
+ v3.2.0:
+ - Daten-pro-App Feature (ab Android 2.2)
+ - Zweiter Slot StatusbarWidget gefixt
+ 
+
+ v3.1.3:
+ - 1-Slot Widget hinzugefügt
+ - Top3-Statistken sind nun Top10-Statistiken
+ - StatusBar-Widget hinzugefügt
+ 
+
+ v3.1.1:
+ - 4x1 Widget hinzugefügt
+ 
+
+ v3.1.0:
+ - Gesamtkosten für Widgets wählbar
+ 
+
+ v3.0.4:
+ - Erstrelease
+ - Widgetsstatistiken konfigurierbar
+ - Widgetstatistiken ohne Einheit möglich
+ - Widgettransparenz setzen möglich
+"</string>
+    <string name="nitro_valueseekbar_set">Setzen</string>
+    <string name="nitro_valueseekbar_cancel">Abbrechen</string>
+    <string name="pro_widget_title">Widgets</string>
+    <string name="pro_widget_txt">Nutzen Sie das Statusbar-Widget, sowie auch das extra große 4x1 Widget und das alternative 1x1 Widgets. Alle Widgets sind hierbei frei konfigurierbar welche Werte sie anzeigen oder ob sie transparent seien sollen.</string>
+    <string name="pro_topstats_title">TopStats</string>
+    <string name="pro_topstats_text">"Lassen Sie sich die Top10 zu jeder Statistik anstatt nur die Top3 anzuzeigen!
+Zudem gibt es hübsche Tortendiagramme zu den Statisiken."</string>
+    <string name="pro_eventlog_title">EventLog</string>
+    <string name="pro_eventlog_text">Holen Sie sich den EventLog, dass Ihnen alle SMS und Gespräche in chronologischer Reihenfolge darstellt. Überprüfen Sie im Einzelnen wieviel Sie mit jedem Gespräch wirklich verbraucht haben.</string>
+    <string name="pro_dataperapp_title">DataPerApp</string>
+    <string name="pro_dataperapp_text">Schauen Sie im Einzelnen welche der installierten Apps Ihr Datenvolumen fressen.</string>
+    <string name="pro_gopremium_title">GoPremium</string>
+    <string name="pro_gopremium_text">"Um die Premium-Features nutzen zu können benötigen Sie nur den Key, welchen Sie über die unten stehenden Links bekommen.
+Alle Ihre Statsiken und Einstellungen bleiben erhalten. Die Premium-Features sind beim nächsten Start der App vorhanden."</string>
+    <string name="premium_android_market">Android Market</string>
+    <string name="premium_paypal">PayPal (2,50 €)</string>
+    <string name="topstats_free_button_more">weitere</string>
+    <string name="quickinfo_event_log">Dieser Log zeigt Ihnen alle SMS und Gespräche, die DroidStats auf ihrem Gerät gefunden hat. Auf Basis dieser Events werden alle Statistiken errechnet. Sie können auf jeden Eintrag klicken um weitergehende Informationen zu erhalten.</string>
+    <string name="price_connection_fee">Verbindungsgebühr pro Anruf</string>
+    <string name="use_connection_fee">Nutze Verbindungsgebühr</string>
+    <string name="use_basic_fee">Nutze Grundgebühr</string>
+    <string name="price_basic_fee">Monatliche Grundgebühr</string>
+    <string name="pref_export_config">Konfiguration sichern</string>
+    <string name="pref_export_data">Daten sichern</string>
+    <string name="pref_import_config">Konfiguration wiederherstellen</string>
+    <string name="pref_import_data">Daten wiederherstelen</string>
+    <string name="pref_export_csv">Event Log exportieren (CSV)</string>
+    <string name="pref_export_config_sum">Sichere Konfiguration, inklusive ausgeschlossener Zeiten und Nummern, auf SD Karte</string>
+    <string name="pref_export_data_sum">Sichere Gesprächs- und SMS Events auf SD Karte</string>
+    <string name="pref_import_config_sum">Stellt die Konfiguration von der SD Karte (letzter Datensatz) wieder her</string>
+    <string name="pref_import_data_sum">Stellt Gesprächs- und SMS-Event von der SD Karte (neuester Datensatz) wieder her und vereinigt diese mit den aktuellen Daten.</string>
+    <string name="pref_export_csv_sum">Gesprächs- und SMS Events in eine lesbare CSV-Datei speichern</string>
+    <string name="pref_use_unicode_sms_split">Bei 80 Zeichen splitten (Unicode)</string>
+    <string name="pref_use_unicode_sms_split_sum">Wählen, wenn SMS bei 80 Zeichen gesplittet werden. Speziell für Länder mit anderen Zeichensätzen.</string>
+    <string name="pref_importexport">Import/Export (BETA)</string>
+    <string name="units_category">SMS/Minuten Austausch</string>
+    <string name="unit_limit_box_or">/</string>
+    <string name="pref_gui">Oberflächeneinstellungen</string>
+    <string name="pref_notifications_cat">Notifikationseinstellungen</string>
+    <string name="pref_unit_limit">Einheitslimits (SMS/Minuten Austausch)</string>
+    <string name="pref_unit_limit_sum">Aktivieren Sie dies wenn Sie für SMS Minuten berechnet bekommen. Zum Beispiel 100 Minuten ODER 200 SMS im Monat. Minuten gelten für das Limit als Basis und werden nun als Einheiten bezeichnet. Anhand der angegebenen verfügbaren SMS und Einheiten (Minuten) wird das Austauschsverhältniss automatisch berechnet. Berechnete Kosten werden auf Basis von Units berechnet und sind somit im gleichen Verhältniss zwischen SMS und Minuten verteilt. Wenn dies aktiviert wurde werden die Nur-Minuten und Nur-SMS Limits deaktiviert.</string>
+    <string name="pref_units_free_sum">Wieviele Minuten monatlich zur Verfügung stehen. Die ist die Basiseinheit für das Einheitenlimit.</string>
+    <string name="pref_units_free">Freiminuten (Einheiten)</string>
+    <string name="pref_units_sms_free_sum">ODER wieviele SMS Sie im Monat schreiben können.</string>
+    <string name="pref_units_sms_free">Frei-SMS</string>
+    <string name="pref_costs_limit">Kostenlimit</string>
+    <string name="pref_costs_limit_sum">Aktivieren Sie diese Option wenn Sie ein (persönliches) Kostenlimit besitzen, welches Sie überwachen wollen. Wenn diese Option angeschaltet ist, priorisiert DroidStats dieses Limit und lässt nur ingesamt 3 Limitboxen darstellen.</string>
+    <string name="pref_costs_free_sum">Der maximale Betrag vor dem Sie bei Erreichen gewarnt werden..</string>
+    <string name="pref_costs_free">Höhe des Kostenlimits</string>
+    <string name="costs_remaining">Verbleibende Kosten</string>
+    <string name="estimated_costs">Prognostizierte Kosten</string>
+    <string name="units_remaining">Verbleibende Einheiten</string>
+    <string name="estimated_units">Prognostizierte Einheiten</string>
+    <string name="applist_textbox_search">Suche App</string>
+    <string name="pref_showunits">Einheiten anzeigen</string>
+    <string name="widgetconfig_4slot">4. Slot</string>
+    <string name="widgetconfig_3slot">3. Slot</string>
+    <string name="widgetconfig_2slot">2. Slot</string>
+    <string name="widgetconfig_1slot">1. Slot</string>
+    <string name="widgetconfig_configure">Konfigurieren</string>
+    <string name="button_search">Suche</string>
+    <string name="applist_system_apps">System Apps</string>
+    <string name="applist_downloaded_apps">Downloaded Apps</string>
+    <string name="data_per_app_button">Daten-pro-App</string>
+    <string name="applist_not_supported_text">Leider wird dieses Feature von deinem Handy oder CustomROM nicht unterstützt.</string>
+    <string name="applist_feature_not_supported">Feature nicht unterstützt</string>
+    <string name="dataperapp_info_text">Es wird der Datenbverbrauch seit dem Boot des Geräts angezeigt. Datenvebrauch wird über alle Dateninterfaces gemessen. Dies beinhaltet zum Beispiel WLAN, 3G, bluetooth und USB. Getrennte Daten werden vom System nicht bereitgestellt.</string>
+    <string name="applist_getting_data">Ermittle Daten</string>
+    <string name="pref_widget_1x1_oneslot_unitsadded_sum">Ändert nur 1-Slot-Widget</string>
+    <string name="pref_widget_statusbarwidget_sum">Ein Widget das sich in den Benachrichtigungsteil integriert.</string>
+    <string name="pref_widget_use_statusbarwidget">Nutze StatusBar-Widget</string>
+    <string name="widget_config_title">Widget Infos</string>
+    <string name="widgetconfig_premium_support4x1">Das 4x1 Widget ist Teil des Pro-Addons. Unterstützen Sie uns, so dass DroidStats umso besser wird. Das Addon ermöglicht es unter Anderem auch die Widgetwerte frei zu konfigurieren.</string>
+    <string name="widgetconfig_premium_supportedconfig">Das freie Konfigurieren der Widgets ist Teil des Pro-Addons. Sie können beispielsweise hochzählende Statistiken einstellen und schalten viele weitere Extras frei. Unterstützen Sie uns, so dass DroidStats umso besser wird.</string>
+    <string name="widgetconfig_premium">Zum Addon</string>
+    <string name="widgetconfig_back">Zurück</string>
+    <string name="pref_use1SlotWidget">Nutze 1-Slot Widget</string>
+    <string name="pref_use1SlotWidget_sum">Widget im Stil der anderen größeren Widget, welches auch einen Limitbalken darstellen kann.</string>
+    <string name="pref_status_bar_widget">StatusBar-Widget</string>
+    <string name="pref_status_bar_widget_theme">Widget Theme</string>
+    <string name="pref_widget_4x1">Widget 4x1</string>
+    <string name="pref_widget_3x1">Widget 3x1</string>
+    <string name="pref_widget_2x1">Widget 2x1</string>
+    <string name="pref_widget_1x1">Widget 1x1</string>
+    <string name="pref_widget_other">Sonstiges</string>
+    <string name="pref_widget_values">Widget-Werte</string>
+    <string name="pref_widget_transparency">Transparenz</string>
+    <string name="pref_widget_transparency_sum">Android-Handys mit einer älteren Version als 2.2 können nur bestimmte Werte der Transparenz nutzen.</string>
+    <string name="average_outgoing_paid_calls_length">Durschnittliche Gesprächslänge (*)</string>
+    <string name="average_outgoing_paid_sms_length">Durchschnittliche SMS Länge (*)</string>
+    <string name="average_outgoing_paid_calls_length_sum">Wielange ihre Gespräche im Durchschnitt dauern. Es werden ausgehende Gespräche analysiert die Ihnen abgerechnet werden.</string>
+    <string name="average_outgoing_paid_sms_length_sum">Wieviele Zeichen lang Ihre SMS im Schnitt sind. Es werden ausgehende SMS analysiert die Ihnen abgerechnet werden.</string>
+    <string name="pref_useHoursDisplay">Stunden/Minuten Format bevorzugen</string>
+    <string name="pref_useHoursDisplay_sum">Ersetzt beispielsweise 130 Min durch 2 h 10 min in den Detailsansichten.</string>
+    <string name="about_title">About &amp; Infos</string>
+    <string name="about_facebook">Facebook Gruppe</string>
+    <string name="about_donation_market">Spende Market (Premium)</string>
+    <string name="about_donation_paypal">Spende Paypal</string>
+    <string name="about_homepage">Homepage</string>
+    <string name="premium_invalid_title">Schlüsselproblem (Key)</string>
+    <string name="premium_invalid_alert">Der DroidStats Premium Key konnte nicht validiert werden. Möglicherweise hat der Google-Lizenzierungsserver Probleme (offline? Bitte nochmal restarten). DroidStats prüft periodisch den Schlüssel online. Die App wird nun beendet. Kontakieren Sie uns falls Sie Probleme haben.</string>
+    <string name="pref_manual_corr_numlabel">Korrekturnummer</string>
+    <string name="manual_corr_calls">Minuten (Ausgehend)</string>
+    <string name="manual_corr_sms">SMS (Ausgehend)</string>
+    <string name="manual_corr_traffic">MB Daten (ausgehend)</string>
+    <string name="pref_manual_corr_add">Füge ...</string>
+    <string name="pref_manual_corr_hint">... zu deinen Daten. Datum der Korrektur ist heute.</string>
+    <string name="pref_upateIntervallSMS">Aktualisierungsintervall SMS</string>
+    <string name="pref_upateIntervallSMS_sum">Wie oft soll DroidStats nach gesendeten und empfangenen SMS prüfen. Wenn Sie wenig SMS senden erhöhen Sie diesen Wert. Mehr Berechnungen als für Datenverkehrszählung nötig. Wenn Sie die Hintergrunddienste ausstellen werden SMS nur beim öffnen der App geprüft.</string>
+    <string name="pref_upateIntervallTraffic">Aktualisierungsintervall Datenverbrauch</string>
+    <string name="pref_upateIntervallTraffic_sum">Wie oft soll DroidStats den Datenverbauch im Hintergrund ermitteln (wirkt sich auf Genauigkeit aus)</string>
+    <string name="pref_actions">Aktionen</string>
+    <string name="pref_actions_sum">Aktionen wie das zurücksetzen der Datenbank oder einer manuellen Datenkorrektur</string>
+    <string name="pref_manual_correction">Manuelle Datenkorrektur</string>
+    <string name="pref_manual_correction_sum">Haben Sie DroidStats mitten im Monat angefangen zu nutzen oder ein neues Handy? Vielleicht wollen Sie ja Startwerte für ihre Daten setzen. Dies ist NICHT zur Erhöhung der Limits gedacht</string>
+    <string name="quickaction_stat_info">Info</string>
+    <string name="favorite_toggle_add">Zu den Favoriten hinzufügen</string>
+    <string name="favorite_toogle_remove">Entfernen von den Favoriten</string>
+    <string name="pref_billIncomingCalls">Eingehende Anrufe abrechnen</string>
+    <string name="pref_billIncomingSMS">Eingehende SMS abrechnen</string>
+    <string name="pref_billIncomingCalls_sum">Wenn Ihre eingehenden Anrufe auch berechnet werden aktivieren Sie diese Option. Falls aktiviert werden freie Nummern, freie Zeiten/Tage und Gesprächskosten auch für eingehende Anrufe berücksichtigt.</string>
+    <string name="pref_billIncomingSMS_sum">Wenn Ihre eingehenden SMS auch berechnet werden aktivieren Sie diese Option. Falls aktiviert werden freie Nummern, und Gesprächskosten auch für eingehende SMS berücksichtigt.</string>
+    <string name="excludedtimes_quickinfo">Fügen Sie Tage und Uhrzeiten hinzu in denen Sie kostenlos telefonieren können. Wenn sie z.B. Wochends kostenlos telefonieren können fügen Sie Wochenende von 0 Uhr bis 24 Uhr hinzu. Oft können Sie auch an den Rändern des Wochende kostenlos telefonieren, dann müssen sie z.B. Freitag von 20 Uhr bis 24 Uhr und Montag von 0 Uhr bis 5 Uhr hinzufügen</string>
+    <string name="excludedSMSNumbers_quickinfo">Fügen Sie Nummern oder Kontakte hinzu denen Sie kostenlos schreiben können. Sie können auch Pattern/Muster auf Nummern mit dem * Zeichen definieren. Die Nummern hierzu müssen NICHT im Adressbuch sein. Falls sie kostenlose Nummern mit dem * Zeichen selbst hinzufügen wollen, schalten Sie in den Optionen das Alternativsymbol @ an. Nun können Sie @ als Platzhalter verwenden. Um diese Feature zu verbessern aktivieren Sie auch bitte die Landesvorwahl-Korrektur</string>
+    <string name="excludedCallnumbers_quickinfo">Fügen Sie Nummern oder Kontakte hinzu, die Sie kostenlos anrufen können. Sie können auch Pattern/Muster auf Nummern mit dem * Zeichen definieren. Die Nummern hierzu müssen NICHT im Adressbuch sein. Falls sie kostenlose Nummern mit dem * Zeichen selbst hinzufügen wollen, schalten Sie in den Optionen das Alternativsymbol @ an. Nun können Sie @ als Platzhalter verwenden. Um diese Feature zu verbessern aktivieren Sie auch bitte die Landesvorwahl-Korrektur</string>
+    <string name="costsettings_quickinfo">Wenn Sie die Kosteneinstellungen aktivieren werden die Kosten berechnet. Die Kosten werden in der Übersichtsdarstellung angezeigt. Wenn Sie Limits angeschaltet haben werden die Kosten nur angezeigt wenn Sie Ihre Limits überschritten haben</string>
+    <string name="widgetconfg_remainingdata">Verbleibende Daten</string>
+    <string name="widgetconfig_remainingsms">Verbleibende SMS</string>
+    <string name="widgetconfig_remainingcalltime">Verbleibende Gesprächszeit</string>
+    <string name="widgetconfig_configdesc">Daten die auf dem Widget dargestellt werden:</string>
+    <string name="widgetconfig_addwidget">Widget hinzufügen</string>
+    <string name="average_monthly_outgoing_payed_minutes">Durchschnittliche ausgehende verrechnete Minuten (Monat)</string>
+    <string name="average_weekly_outgoing_payed_minutes">Durchschnittliche ausgehende verrechnete Minuten (Woche)</string>
+    <string name="average_monthly_sms_sent">Durchschnittliche Ausgehende SMS (Monat)</string>
+    <string name="average_weekly_sms_sent">Durchschnittliche Ausgehende SMS (Woche)</string>
+    <string name="descriptionAverageMonthlySmsSent">Wieviele SMS Sie durchschnittlich jeden Monat schreiben</string>
+    <string name="descriptionAverageWeeklySmsSent">Wieviele SMS Sie durchschnittlich jede Woche schreiben</string>
+    <string name="descriptionAverageMonthlyOutgoingPayedMinutes">Wieviele Minuten sie durschnittlich jeden Monat berechnet bekommen</string>
+    <string name="descriptionAverageWeeklyOutgoingPayedMinutes">Wieviele Minuten sie durschnittlich jede Woche berechnet bekommen</string>
+    <string name="pref_ccc_title">Landesvorwahl-Korrektur</string>
+    <string name="pref_ccc_sum">Fügt Landesvorwahl bei Nummern ohne dieser für bessere Ergebnisse hinzu. Insbesondere wenn Freinummern genutzt werden wichtig.</string>
+    <string name="pref_ccc_useCCC">Landesvorwahl bei Nummern ohne ergänzen (nur für DS)</string>
+    <string name="pref_ccc_countrycode">Ihre Landesvorwahl (ohne +)</string>
+    <string name="pref_ccc_transformations"><u>Beispielhafte Nummertransformierung:</u></string>
+    <string name="sync_progress_correction">Korrigiere Nummern</string>
+    <string name="pref_forceEnglish">Englisch erzwingen</string>
+    <string name="pref_forceEnglish_sum">Wenn Sie DroidStats in Deutsch verwenden, können Sie es hiermit wieder auf Englisch umstellen (Startet App neu)</string>
+    <string name="pref_excludetimes_dialog_title">Wochentag und Stunden wählen</string>
+    <string name="pref_excludelist_dialog_addtime">Zeit hinzufügen</string>
+    <string name="pref_excludetime_timeinfo">Startzeit und Endzeit Ihrer kostenlosen Zeit einstellen.</string>
+    <string name="pref_free_times">Freie Stunden/Tage-Filter</string>
+    <string name="pref_free_times_sum">Stellen Sie die Zeiten ein, in denen Anrufe für Sie kostenlos sind. (Beginn des Anrufs muss momentan noch innerhalb dieser Zeit liegen)</string>
+    <string name="pref_excludelist_wildcard">Sie können %1$s als Platzhalter verwenden</string>
+    <string name="pref_excludelist_alreadyin">Nummer schon in Liste</string>
+    <string name="pref_excludelist_patternmatches">Ihr Pattern passt zu %1$s Nummern</string>
+    <string name="pref_excludelist_number">Nummer:</string>
+    <string name="pref_excludelist_unknown">[unbekannt]</string>
+    <string name="general">Allgemein</string>
+    <string name="button_continue_import">Weiter zum Importieren</string>
+    <string name="dialog_title_welcome">Willkommen zu DroidStats</string>
+    <string name="dialog_title_whats_new">Was gibts Neues?</string>
+    <string name="welcome_text">" Danke für die Installation von DroidStats.
+
+ Um DroidStats zu nutzen, sollten Sie einstellen wieviel "<b>Freiminuten, FreiSMS und Freidaten</b> Ihnen zur Verfügung stehen. Falls Sie durch Ihren Vertrag keine Limits haben können Sie diese Funktion auch für <b>persönliche</b>" Limits nutzen um Kosten zu sparen. Wenn Sie sich Ihren Limits annähern werden Sie in der Statuszeile benachrichtigt und die Balken in der Übersicht färben sich orange und später rot.
+
+ In der Anwendung gibt es vier verschiedene Arten von Tabs, der erste ist die Übersicht, die Ihnen eine kompakte Übersicht über Ihren aktuellen Rechnungsmonat gibt. Die anderen Tabs geben Ihnen eine detailiertere Ansicht zu jedem der Dienste (Gespräche, SMS, Daten). Sie können auf jedes Element in diesen Tabs klicken um noch mehr Infomrationen zu bekommen. In den Top3-Dialogen können Sie auf Kontaktbilder klicken um die "<b>QuickActions</b>" zu diesem Kontakt hervorzurufen. Unbekannte Nummern können über diesem Weg auch dem Adressbuch hinzugefügt werden.
+
+ Um Ihre Monatslimits besser unter Kontrolle zu haben, probieren Sie eines der 3 Widgets aus.
+
+ Vergessen Sie nicht Ihre "<b>Providerminutentaktung</b> einzustellen. Zudem können/sollen Sie auch den Starttag Ihres Rechnungsmonats setzen. Es gibt auch eine Hochrechnung Ihres Verbrauches, diese gibt den bis zum Monatsende geschätzten Wert an. Diese Anwendung versuchen das Zählverhalten Ihres Providers <b>nachzubilden</b>, hat aber dafür nicht die Daten Ihres Providers zur Verfügung und es ist somit auch nicht möglich zu Erkennen zu welchen Netzen Sie telefonieren. Falls Sie <b>kostenlose Nummern</b>" haben, können Sie diese auch in den Optionen ausschließen. Es wird keine Gewähr auf die errechneten Daten gegeben.
+
+ DroidStats synchronisiert Ihr SMS Postfach und Ihren Call-Log mit einem eigenen Event-Log. Kümmern Sie sich nicht um das interne Limit von 500 Anrufen im Call-Log und um gelöschte Gespräche und SMS, diese werden auch gezählt nachdem DroidStats installiert wurde.
+
+ Wenn Sie ein "<b>langsameres Gerät</b> wie ein G1, ein HTC Magic oder ein HTC Hero besitzen, empfiehlt es sich die Animationen in den Einstellungen auszuschalten. Nutzen Sie bitte <b>keinen TaskKiller</b>" um DroidStats zu beenden.
+
+ Bedenken Sie, dass Internetdaten erst ab Installationsbeginn (bzw. letzter Reset des Geräts) gezählt werden können.
+
+ Die App besitzt an vielen Stellen runde Infoicons, die wichtige Informationen enthalten. Bitte bei Erstgebrauch lesen. Sie können meine EMailadresse im About finden und mich bei Fragen und Bugs kontaktieren. Schlechte Marketbewertungen bringen mir hier wenig, dies ist ein Hobbyprojekt.
+
+ Viel Spaß "</string>
+    <string name="descriptionTodayMobile">Zeigt die heutige gesendete und empfangene Datenmenge durch mobiles Internet (2G/3G).</string>
+    <string name="descriptionMonthMobile">Zeigt die gesendete und empfangene Datenmenge durch mobiles Internet (2G/3G) im aktuellen Abrechnugsmonat. Gezählt wird ab der Installation der Anwendung.</string>
+    <string name="descriptionTotalMobile">Zeigt die gesamte gesendete und empfangene Datenmenge durch mobiles Internet (2G/3G).</string>
+    <string name="descriptionTodayWifi">Zeigt die heutige gesendete und empfangene WLAN-Datenmenge.</string>
+    <string name="descriptionMonthWifi">Zeigt die gesendete und empfangene WLAN-Datenmenge aus diesem Abrechnungsmonat.</string>
+    <string name="descriptionTotalWifi">Zeigt die gesamte gesendete und empfangene WLAN-Datenmenge.</string>
+    <string name="data">Daten</string>
+    <string name="data_tab">Daten</string>
+    <string name="price_per_mb_data">Kosten pro MB Daten:</string>
+    <string name="use_cost_option_data">nutze Kostenoption für Daten</string>
+    <string name="interface_not_discovered_yet">Interface noch nicht gefunden</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="button_ok">OK</string>
+    <string name="sure">Sicher?</string>
+    <string name="pref_reset_standart_check">Anruf/SMS Zähler zurücksetzen</string>
+    <string name="pref_reset_data_check">Datenzähler zurücksetzen</string>
+    <string name="pref_reset_interfaces_check">Interfaces wiederfinden</string>
+    <string name="no">Nein</string>
+    <string name="yes">Ja</string>
+    <string name="pref_reset_dialog">Wollen Sie wirklich zurücksetzen? Ihre Daten werden aus Ihrem Calllog und den gespeicherten SMS wiederhergestellt. Gelöschte SMS und Anrufe können dann nichtmehr beachtet werden. Datenzähler werden über die Zeit von den Interfaces gesammelt und können nicht aus der Vergangenheit wiederhergestellt werden. Wenn Sie Probleme mit den Datenzählern haben wählen sie auch \"Interfaces wiederfinden\"</string>
+    <string name="data_remaining">Verbleibende Daten</string>
+    <string name="estimated_data">Prognostizierte Daten</string>
+    <string name="pref_traffic_free_sum">Die monatlich zur Verfügung stehende Datenmenge.</string>
+    <string name="pref_traffic_free">Freie Datenmenge</string>
+    <string name="pref_traffic_limit_sum">Aktivieren Sie diese Option falls Sie einen Freibetrag für das Datenvolumen in Ihrem Vertrag haben.</string>
+    <string name="pref_traffic_limit">Daten Limit</string>
+    <string name="traffic_daily">Heute</string>
+    <string name="traffic_monthly">Monat</string>
+    <string name="traffic_alltime">Gesamt</string>
+    <string name="infoLimits">"Bitte konfigurieren Sie Ihre Limits in den Einstellungen und lesen Sie die Infos im About-Dialog.
+
+ Falls Sie keine Limits haben, können Sie auch die Kostenoptionen alleine aktivieren.
+ Mit dem dem Finger können Sie durch die unterschiedlichen Screens wischen."</string>
+    <string name="costs">Kosten</string>
+    <string name="pref_alternativepattern_sum">"Da einige Provider Nummern mit dem '*'-Zeichen nutzen, kann das '@'-Zeichen als Alternative in Ausnahmepattern genutzt werden"</string>
+    <string name="pref_alternativepattern">Nutze @-Symbol in Ausnahmen-Pattern</string>
+    <string name="title">Nitro DroidStats</string>
+    <string name="sms_tab">SMS</string>
+    <string name="calls_tab">Gespräche</string>
+    <string name="overview">Übersicht</string>
+    <string name="unit_overview">Einheiten:</string>
+    <string name="costs_overview">Kosten:</string>
+    <string name="calls_overview">Gespräche:</string>
+    <string name="sms_overview">SMS:</string>
+    <string name="data_overview">Mobiles Internet:</string>
+    <string name="add">+</string>
+    <string name="total">Gesamt</string>
+    <string name="monthly">Monat</string>
+    <string name="mobile">Mobil</string>
+    <string name="wifi">WLAN</string>
+    <string name="estimated_good">(Gut)</string>
+    <string name="estimated_bad">(Schlecht)</string>
+    <string name="remaining_days_label">restliche Tage im Rechnungsmonat</string>
+    <string name="estimated_sms">Prognostizierte SMS</string>
+    <string name="estimated_minutes">Prognostizierte Minuten</string>
+    <string name="sms_remaining">Verbleibende SMS</string>
+    <string name="minutes_remaining">Verbleibende Minuten</string>
+    <string name="extra_costs">Extra Kosten</string>
+    <string name="descriptionIncomingSmsMonthly">Anzahl in diesem Monat empfangener SMS</string>
+    <string name="descriptionOutgoingSmsMonthly">Anzahl in diesem Monat gesendeter SMS</string>
+    <string name="descriptionIncomingSms">Anzahl jemals empfangener SMS</string>
+    <string name="descriptionOutgoingSms">Anzahl jemals versandter SMS</string>
+    <string name="descriptionIncomingSMSPaidMonthly">Anzahl in diesem Monat empfangener SMS. Dieser Wert sind die wirklich verrechneten SMS, hierbei werden die eingestellten kostenlosen Nummer und das Schicken von Mehrfach SMS einbezogen</string>
+    <string name="descriptionOutgoingSMSPaidMonthly">Anzahl in diesem Monat gesendeter SMS. Dieser Wert sind die wirklich verrechneten SMS, hierbei werden die eingestellten kostenlosen Nummer und das Schicken von Mehrfach SMS einbezogen</string>
+    <string name="descriptionIncomingSMSPaid">Anzahl jemals empfangener SMS. Dieser Wert sind die wirklich verrechneten SMS, hierbei werden die eingestellten kostenlosen Nummer und das Schicken von Mehrfach SMS einbezogen</string>
+    <string name="descriptionOutgoingSMSPaid">Anzahl jemals versandter SMS. Dieser Wert sind die wirklich verrechneten SMS, hierbei werden die eingestellten kostenlosen Nummer und das Schicken von Mehrfach SMS einbezogen</string>
+    <string name="incoming_sms">Eingehende SMS</string>
+    <string name="outgoing_sms">Ausgehende SMS</string>
+    <string name="incoming_sms_paid">Eingehende verrechnete SMS</string>
+    <string name="outgoing_sms_paid">Ausgehende verrechnete SMS</string>
+    <string name="descriptionMissedCallsMonthly">Die Anzahl an verpassten (nicht abgehoben) Anrufen in diesem Abrechnungsmonat.</string>
+    <string name="descriptionIncomingCallsMonthly">Die Anzahl an eingehenden Anrufen in diesem Abrechnungsmonat.</string>
+    <string name="descriptionIncomingMinutesMonthly">Die Anzahl an eingehenden Minuten in diesem Abrechnungsmonat.</string>
+    <string name="descriptionFailedCallsMonthly">Die Anzahl an nicht angenommenen Anrufen (Niemand hat abgehoben) in diesem Abrechnungsmonat. Ausgenommen sind kostenpflichtige Dienste wie Mailboxen.</string>
+    <string name="descriptionOutgoingCallsMonthly">Die Anzahl an getätigten ausgehenden Anrufen in diesem Abrechnungsmonat.</string>
+    <string name="descriptionOutgoingPayedMinutesMonthly">Die Anzahl an echt abgerechneten Minuten für ausgehende Anrufe in diesem Abrechnungsmonat. Ausgeschlossene Nummern werden hierbei nicht miteinbezogen. Hinweis: Dieser Betrag kann höher sein als die normalen ausgehenden Minuten, abhängig von der Taktung des Providers (z.B: 1/1, 10/60, 60/60)</string>
+    <string name="descriptionOutgoingMinutesMonthly">Die Anzahl an getätigten ausgehenden Minuten in diesem Abrechnungsmonat.</string>
+    <string name="descriptionFailedCallsTotal">Die Anzahl an nicht angenommenen Anrufen (Niemand hat abgehoben). Ausgenommen sind kostenpflichtige Dienste wie Mailboxen.</string>
+    <string name="descriptionOutgoingCallsTotal">Die Anzahl an jemals getätigten ausgehenden Anrufen.</string>
+    <string name="descriptionMissedCallsTotal">Die Anzahl an verpassten (nicht abgehoben) Anrufen.</string>
+    <string name="descriptionIncomingCallsTotal">Die Anzahl an eingehenden Anrufen.</string>
+    <string name="descriptionIncomingMinutesTotal">Die Anzahl an eingehenden Minuten.</string>
+    <string name="descriptionOutgoingPayedMinutesTotal">Die Anzahl an echt abgerechneten Minuten für ausgehende Anrufe. Ausgeschlossene Nummern werden hierbei nicht miteinbezogen. Hinweis: Dieser Betrag kann höher sein als die normalen ausgehenden Minuten, abhängig von der Taktung des Providers (z.B: 1/1, 10/60, 60/60)</string>
+    <string name="descriptionOutgoingMinutesTotal">Die Anzahl an getätigten ausgehenden Minuten.</string>
+    <string name="descriptionIncomingPayedMinutesTotal">Die Anzahl an echt abgerechneten Minuten für eingehende Anrufe. Ausgeschlossene Nummern werden hierbei nicht miteinbezogen. Hinweis: Dieser Betrag kann höher sein als die normalen eingehenden Minuten, abhängig von der Taktung des Providers (z.B: 1/1, 10/60, 60/60)</string>
+    <string name="descriptionIncomingPayedMinutesMonth">Die Anzahl an echt abgerechneten Minuten für eingehende Anrufe in diesem Abrechnungsmonat. Ausgeschlossene Nummern werden hierbei nicht miteinbezogen. Hinweis: Dieser Betrag kann höher sein als die normalen eingehenden Minuten, abhängig von der Taktung des Providers (z.B: 1/1, 10/60, 60/60)</string>
+    <string name="missed_calls">Verpasste Anrufe</string>
+    <string name="incoming_calls">Eingehende Anrufe</string>
+    <string name="incoming_minutes">Eingehende Minuten</string>
+    <string name="failed_calls">Fehlgeschlagene Anrufe</string>
+    <string name="outgoing_calls">Ausgehende Anrufe</string>
+    <string name="outgoing_payed_minutes">Ausgehende verrechnete Minuten</string>
+    <string name="outgoing_minutes">Ausgehende Minuten</string>
+    <string name="sync_progress_2">Analysiere Events</string>
+    <string name="sync_progress_1">Synchronisiere mit System</string>
+    <string name="progress_working">Arbeite..</string>
+    <string name="starting_sync">Starte Synchronisierung</string>
+    <string name="first_sync_message">"Synchronisiere Daten (Dies kann etwas dauern)
+
+Probieren Sie im Anschluss die Widgets aus."</string>
+    <string name="unit_calls">Anrufe</string>
+    <string name="unit_minutes">Min</string>
+    <string name="unit_seconds">Sek</string>
+    <string name="unit_sms">Sms</string>
+    <string name="unit_sms_chars">Zeichen</string>
+    <string name="unit_units">Einheiten</string>
+    <string name="app_name">DroidStats</string>
+    <string name="event_log_phone">Tel-Nr</string>
+    <string name="event_log_call_time">Dauer</string>
+    <string name="event_log_billed_time">Abgerechnet</string>
+    <string name="event_log_message_length">Zeichen</string>
+    <string name="event_log_billed_messages">Abgerechnet</string>
+    <string name="event_log_homescreen_shortcut">Ereignislog</string>
+    <string name="stat_list_mode_favorites">Favoriten anzeigen</string>
+    <string name="stat_list_mode_all">Alle anzeigen</string>
+    <string name="calltime_limit_invalid">Minutenlimits ungültig gesetzt</string>
+    <string name="sms_limit_invalid">SMS-Limit ungültig gesetzt</string>
+    <string name="warning_treshold_invalid">Warnschwelle ungültig gesetzt</string>
+    <string name="menu_exit">Beenden</string>
+    <string name="menu_help">About &amp; Infos</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_log">Ereignislog</string>
+    <string name="menu_import_export">Import/Export</string>
+    <string name="about">" "<b>Nitro DroidStats</b>" 
+
+entwickelt von "<b>Michael Ludwig</b> Oberflächen und Unterstützung von <b>David Eberlein</b>" 
+
+ Wenn Sie diese Anwendung mögen würden wir uns über eine "<b>Upgrade/Spende</b>" freuen. Die PRO-Version schaltet viele zusätzliche Funktionen frei. 
+
+ Für "<b>Updates</b>" schauen Sie in den Google Market
+
+ "<b>Hilfe &amp; Tipps:</b>" 
+
+ "<ul> <li>Diese Anwendung hat unterschiedliche Widgets, die Ihnen helfen unter Ihren Limits zu bleiben. Probieren Sie Sie aus.</li>" 
+
+ "<li>Sie können jedes Element in den Statistiken anklicken um die jeweilligen Top3 anzuzeigen.</li>" 
+
+ "<li>Das Zählen von Datenverkehr kann, aus technischen Gründen, erst ab der Installation beginnen. Die Daten werden nach einer Zeit mehr aussagekräftig.</li>" 
+
+ "<li>Wenn Sie eine Anwendung wie <b>AndroidAIR Mail</b> oder <b>WebSMS</b> nutzen können Sie zusätzliche SMS in Ihrem SMS Postfach haben. Diese können nicht von normalen SMS untrschieden werden und werden deshalb von DroidStats berücksichtigt. Beachten Sie das. </li>" 
+
+ "<li>Denken Sie immer daran, dass die Anwendung nur die Daten, die auf ihrem Handy sind analysiert. Um die richtige Genauigkeit zu erreichen, konfigurieren Sie unbedingt die Taktung. Falls Ihnen die Genauigkeit der Datenzählung nicht ausreicht, erhöhen Sie das Updateintervall. </li>" 
+
+ "<li>Es wird keine Gewährleistung und Haftung für die errechneten Statistiken übernommen. </li>" 
+
+ "<li>"Falls Sie eine falsche Währung angezeigt bekommen liegt dies daran, dass Sie ein falsches Locale ausgewählt haben. Falls Sie bestimmte Währungen mit ungewöhnlichen Sprachen mischen wollen, nutzen Sie ein Tool namens 'Custom Locale'. "</li>" 
+
+ "<li>Wenn Sie <b>Fehler</b> finden, emailen Sie mir bitte (mailmichaelludwig@gmail.com) </li>" 
+
+ "<li>Um mehr Informationen zu bekommen treten Sie unserer Facebook Gruppe bei oder besuchen Sie unsere Homepage </li>" 
+ "</ul>" "</string>
+    <string name="limitsInvalid">Warnung: Warnschwelle oder Limits ungültig gesetzt</string>
+    <string name="notify_smsLimitReached">SMS-Limit überschritten</string>
+    <string name="notify_smsLimitNear">SMS-Limit bald erreicht</string>
+    <string name="notify_limitNear">Limit bald erreicht</string>
+    <string name="notify_limitExceeded">Limit überschritten</string>
+    <string name="notify_smsLimitNearBody">Sie erreichen Ihr monatliches SMS-Limit</string>
+    <string name="notify_smsLimitReachedBody">Sie haben ihr monatliches SMS-Limit überschritten</string>
+    <string name="notify_callLimitReachedBody">Sie haben ihr monatliches Freiminutenlimit erreicht</string>
+    <string name="notify_callLimitNearBody">Sie erreichen ihr monatliches Freiminutenlimit</string>
+    <string name="notify_callLimitNear">Freiminutenlimit bald erreicht</string>
+    <string name="notify_callLimitReached">Freiminutenlimit überschritten</string>
+    <string name="notify_costsLimitReachedBody">Sie haben Ihr monatliches Kostenlimit überschritten</string>
+    <string name="notify_costsLimitNearBody">Sie erreichen Ihr monatliches Kostenlimit</string>
+    <string name="notify_costsLimitNear">Kostenlimit bald erreicht</string>
+    <string name="notify_costsLimitReached">Kostenlimit überschritten</string>
+    <string name="notify_unitsLimitReachedBody">Sie haben Ihr monatliches Einheitenlimit überschritten</string>
+    <string name="notify_unitsLimitNearBody">Sie erreichen Ihr monatliches Einheitenlimit</string>
+    <string name="notify_unitsLimitNear">Einheitenlimit bald erreicht</string>
+    <string name="notify_unitsLimitReached">Einheitenlimit überschritten</string>
+    <string name="button_close">Schließen</string>
+    <string name="cron_picker_monthly_day_of_month_n">Monatstag: %1$s</string>
+    <string name="contact_or_number">Kontakt oder Nummer</string>
+    <string name="save_and_return">Speichern und Zurück</string>
+    <string name="price_per_message">Kosten pro Nachricht:</string>
+    <string name="price_per_minute">Kosten pro Minute:</string>
+    <string name="price_per_unit">Kosten pro Einheit (Minute):</string>
+    <string name="use_cost_option">nutze Kostenoption für SMS&amp;Gespräche</string>
+    <string name="use_call_cost_option">nutze Gesprächskosten</string>
+    <string name="use_sms_cost_option">nutze SMS-Kosten</string>
+    <string name="use_unit_cost_option">nutze Einheiten-Kosten</string>
+    <string name="cost_settings">Kosteneinstellungen</string>
+    <string name="pref_limits">Monatslimits</string>
+    <string name="pref_limits_sum">Konfigurieren Sie die Monatslimits ihres Vertrags</string>
+    <string name="pref_calltime_limit">Gesprächszeitlimit</string>
+    <string name="pref_calltime_limit_sum">Falls in ihrem Vertrag kostenlose Gesprächszeit enthalten ist aktivieren Sie dies.</string>
+    <string name="pref_calltime_free">Freiminuten</string>
+    <string name="pref_calltime_free_sum">Anzahl ihrer Freiminuten.</string>
+    <string name="pref_sms_limit">SMS Limit</string>
+    <string name="pref_sms_limit_sum">Aktivieren Sie dies, falls kostenlose SMS in ihrem Vertrag enthalten sind.</string>
+    <string name="pref_sms_free">Frei-SMS</string>
+    <string name="pref_sms_free_sum">Anzahl ihrer Frei-SMS</string>
+    <string name="pref_month_beginning">Rechnungsmonatsbeginn</string>
+    <string name="pref_month_beginning_sum">Der Tag an dem ihr Provider abbrechnet, z.B. 1 für den Monatsersten.</string>
+    <string name="pref_billing">Abrechnung</string>
+    <string name="pref_billing_sum">Einstellungen für Kosten und Abbrechnung.</string>
+    <string name="pref_costs">Kosteneinstellungen</string>
+    <string name="pref_costs_sum">Legen Sie die Preise für SMS, Gespräche und Daten fest.</string>
+    <string name="pref_billing_increment">Minutentaktung</string>
+    <string name="pref_billing_increment_sum">Taktung in Sekunden, die ihr Provider zur Abrechnung nutzt. (Erste Minute/Folgende Minuten)</string>
+    <string name="pref_free_call_num">Kostenlose Nummern (Gespräche)</string>
+    <string name="pref_free_call_num_sum">Legen Sie die Nummern fest, die Sie kostenlos anrufen können.</string>
+    <string name="pref_free_sms_num">Kostenlose Nummern (SMS)</string>
+    <string name="pref_free_sms_num_sum">Legen Sie die Nummern fest, denen Sie kostenlos schreiben können.</string>
+    <string name="pref_split_sms">Lange SMS gesplittet zählen</string>
+    <string name="pref_split_sms_sum">SMS, die länger als 160 Zeichen sind, werden als MultiSMS gezählt.</string>
+    <string name="pref_app">App Einstellungen</string>
+    <string name="pref_app_sum">Einstellungen, die die App selbst betreffen</string>
+    <string name="pref_estimations">Verbrauchsabschätzung</string>
+    <string name="pref_estimations_sum">Zeigt den vorraussichtlichen Vebrauch bis zum Monatsende (Wird erst nach einer Woche im Abrechnungsmonat angezeigt)</string>
+    <string name="pref_call_notification">Gesprächminutenwarnung anzeigen</string>
+    <string name="pref_call_notification_sum">Aktivieren Sie dies, falls Sie Statuszeilenbenachrichtungen beim Erreichen und Überschreiten ihres Minuten-Limits empfangen wollen</string>
+    <string name="pref_sms_notification">SMS-Warnung anzeigen</string>
+    <string name="pref_sms_notification_sum">Aktivieren Sie dies, falls Sie Statuszeilenbenachrichtungen beim Erreichen und Überschreiten ihres SMS-Limits empfangen wollen</string>
+    <string name="pref_traffic_notification">Mobildatenwarnung anzeigen</string>
+    <string name="pref_traffic_notification_sum">Aktivieren Sie dies, falls Sie Statuszeilenbenachrichtungen beim Erreichen und Überschreiten ihres Daten-Limits empfangen wollen</string>
+    <string name="pref_unit_notification">Einheitenwarnung anzeigen</string>
+    <string name="pref_unit_notification_sum">Aktivieren Sie dies, falls Sie Statuszeilenbenachrichtungen beim Erreichen und Überschreiten ihres Einheiten-Limits empfangen wollen</string>
+    <string name="pref_costs_notification">Kostenwarnungen anzeigen</string>
+    <string name="pref_costs_notification_sum">Aktivieren Sie dies, falls Sie Statuszeilenbenachrichtungen beim Erreichen und Überschreiten ihres Kosten-Limits empfangen wollen</string>
+    <string name="pref_threshold">Warnschwelle</string>
+    <string name="pref_threshold_sum">Schwelle in Prozent, ab der Sie gewarnt werden wollen. Sie werden über Benachrichtigungen und der Farbe der Balken in Widgets und Übersicht gewarnt.</string>
+    <string name="pref_advanced">Erweiterte Einstellungen</string>
+    <string name="pref_services">Hintergrunddienste an</string>
+    <string name="pref_services_sum">Falls Sie das Widget und die Benachrichtigungen nicht nutzen wollen, können Sie diese deaktivieren.</string>
+    <string name="pref_animaions_off">Animationen aus</string>
+    <string name="pref_animaions_off_sum">Beschleunigt die Anwendung auf langsamen Geräten. (Startet die App neu)</string>
+    <string name="pref_reset_db">Datenbank zurücksetzen</string>
+    <string name="pref_reset_db_sum">Setzt die Datenbank zurück. Sie wird im Anschluss neuaufgebaut.</string>
+    <string name="pref_reset_db_dialog">"Sind Sie sicher, dass Sie die Datenbank zurücksetzen wollen?
+
+Die Daten werden in Anschluss aus Calllog und SMS Nachrichten wiederhergestellt. Datenverkehrsdaten müssen erst wieder gesammelt werden."</string>
+    <string name="notification_usage_level_medium_title">Mittleres Datennutzungslevel erreicht</string>
+    <string name="notification_usage_level_medium">2G/3G Datenutzung hat das mittlere Nutzungslevel erreicht.</string>
+    <string name="notification_usage_level_high_title">Hohes Datennutzungslevel erreicht</string>
+    <string name="notification_usage_level_high">2G/3G Datenutzung hat das hohe Nutzungslevel erreicht.</string>
+    <string name="pref_widget">Widget Einstellungen</string>
+    <string name="pref_widget_sum">Widgets individuell einstellen</string>
+    <string name="pref_widget_micro_stat1">Ersten Slot auswählen</string>
+    <string name="pref_widget_micro_stat1_sum">Den oberen Slot konfigurieren</string>
+    <string name="pref_widget_micro_stat2">Zweiten Slot auswählen</string>
+    <string name="pref_widget_micro_stat2_sum">Den unteren Slot konfigurieren</string>
+    <string name="pref_widget_micro_stat3">Dritten Slot auswählen</string>
+    <string name="pref_widget_micro_stat4">Vierten Slot auswählen</string>
+    <string name="resetdate_not_available">nicht verfügbar</string>
+    <string name="resetdate_since">seit</string>
+    <string name="about_share_app">Teile App</string>
+    <string name="app_share_subject">App Empfehlung: DroidStats</string>
+    <string name="app_share_text">Hey, Ich will dir eine App zeigen. Sie heißt DroidStats und ist sehr nützlich. Lade sie hier runter: http://bit.ly/DroidStats-GooglePlay Es gibt auch noch eine erweiterte Premium-Variante!</string>
+    <string name="app_share_chooser">Über was willst du teilen?</string>
+    <string name="pref_notification">Benachrichtigungen anzeigen</string>
+    <string name="pref_notificaiont_sum">Aktivieren Sie dies, falls Sie Statuszeilenbenachrichtungen beim Erreichen und Überschreiten ihrer Limits empfangen wollen</string>
+</resources>

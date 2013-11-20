@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/appwidget_bg" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center" android:id="@id/widget" android:background="@drawable/appwidget_bg_empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_droidstats" android:background="@drawable/appwidget_button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <ImageView android:id="@id/img_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_call" android:scaleType="center" />
+                <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/txt_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/Text.Widget" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                <ImageView android:id="@id/img_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sms" android:scaleType="center" />
+                <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/txt_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/Text.Widget" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

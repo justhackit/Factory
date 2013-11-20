@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hours">
+        <item>0 Uhr</item>
+        <item>1 Uhr</item>
+        <item>2 Uhr</item>
+        <item>3 Uhr</item>
+        <item>4 Uhr</item>
+        <item>5 Uhr</item>
+        <item>6 Uhr</item>
+        <item>7 Uhr</item>
+        <item>8 Uhr</item>
+        <item>9 Uhr</item>
+        <item>10 Uhr</item>
+        <item>11 Uhr</item>
+        <item>12 Uhr</item>
+        <item>13 Uhr</item>
+        <item>14 Uhr</item>
+        <item>15 Uhr</item>
+        <item>16 Uhr</item>
+        <item>17 Uhr</item>
+        <item>18 Uhr</item>
+        <item>19 Uhr</item>
+        <item>20 Uhr</item>
+        <item>21 Uhr</item>
+        <item>22 Uhr</item>
+        <item>23 Uhr</item>
+        <item>24 Uhr</item>
+    </string-array>
+    <string-array name="upateIntervallTraffic_choices">
+        <item>15 Min (genauer)</item>
+        <item>30 Min (Standard)</item>
+        <item>60 Min (energiesparend)</item>
+    </string-array>
+    <string-array name="updateIntervallSMS_choices">
+        <item>45 Min (mehr Energie)</item>
+        <item>90 minutes (Standard)</item>
+        <item>6 hours (energiesparend)</item>
+    </string-array>
+    <string-array name="statusBarWidgetThemes">
+        <item>Hell</item>
+        <item>Dunkel</item>
+        <item>HTC Sense</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+        <item>Sonntag</item>
+        <item>Arbeitstag (Mon - Fr)</item>
+        <item>Wochenende</item>
+    </string-array>
+</resources>

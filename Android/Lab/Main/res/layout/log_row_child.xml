@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/log_child_row" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/contact_photo" android:background="@drawable/quickcontact_badge" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contact_picture" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/event_log_phone" />
+            <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="left|center" android:id="@id/phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+49 7621 578698" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="left|center" android:id="@id/actual_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/event_log_call_time" />
+            <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="left|center" android:id="@id/actual_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="22:39 min" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="left|center" android:id="@id/billed_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/event_log_billed_time" />
+            <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="left|center" android:id="@id/billed_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="23:00 min" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

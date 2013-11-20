@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:paddingBottom="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/about_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@id/TextView01" />
+        <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/about_facebook" android:background="@drawable/btn_dialog" android:layout_width="fill_parent" android:layout_height="50.0sp" android:text="@string/about_facebook" />
+        <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/about_upgrade" android:background="@drawable/btn_dialog" android:layout_width="fill_parent" android:layout_height="50.0sp" android:text="@string/about_upgrade" />
+        <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/about_homepage" android:background="@drawable/btn_dialog" android:layout_width="fill_parent" android:layout_height="50.0sp" android:text="@string/about_homepage" />
+        <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/about_share_app" android:background="@drawable/btn_dialog" android:layout_width="fill_parent" android:layout_height="50.0sp" android:text="@string/about_share_app" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/banner" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="fill" android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:text="@string/pro_widget_title" style="@style/PromoTitle" />
+            <View style="@style/PromoDevider" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/promo_widget" android:scaleType="fitCenter" />
+            <TextView android:text="@string/pro_widget_txt" style="@style/PromoText" />
+            <TextView android:text="@string/pro_topstats_title" style="@style/PromoTitle" />
+            <View style="@style/PromoDevider" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/promo_topstats" android:scaleType="fitStart" />
+            <TextView android:text="@string/pro_topstats_text" style="@style/PromoText" />
+            <TextView android:text="@string/pro_dataperapp_title" style="@style/PromoTitle" />
+            <View style="@style/PromoDevider" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/promo_dataperapp" android:scaleType="fitStart" />
+            <TextView android:text="@string/pro_dataperapp_text" style="@style/PromoText" />
+            <TextView android:text="@string/pro_eventlog_title" style="@style/PromoTitle" />
+            <View style="@style/PromoDevider" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/promo_eventlog" android:scaleType="fitStart" />
+            <TextView android:text="@string/pro_eventlog_text" style="@style/PromoText" />
+            <TextView android:text="@string/pro_gopremium_title" style="@style/PromoTitle" />
+            <View style="@style/PromoDevider" />
+            <TextView android:text="@string/pro_gopremium_text" style="@style/PromoText" />
+            <Button android:textColor="#ffffffff" android:id="@id/button_market" android:background="@drawable/btn_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/premium_android_market" />
+            <Button android:textColor="#ffffffff" android:id="@id/button_paypal" android:background="@drawable/btn_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/premium_paypal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

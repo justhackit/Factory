@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nitro_valueseekbar_set">设定</string>
+    <string name="nitro_valueseekbar_cancel">取消</string>
+    <string name="whatsnew_free" />
+    <string name="whatsnew_premium">高级</string>
+    <string name="quickinfo_event_log">该日志显示DroidStats从您的手机上收集的所有短信和通话事件. 这些事件是分析的基础. 点击每个条目获取更多信息.</string>
+    <string name="price_connection_fee">连接费(每次通话)</string>
+    <string name="use_connection_fee">使用连接费</string>
+    <string name="use_basic_fee">使用基础费</string>
+    <string name="price_basic_fee">基础费(每月)</string>
+    <string name="pref_export_config">导出配置</string>
+    <string name="pref_export_data">导出数据</string>
+    <string name="pref_import_config">导入配置</string>
+    <string name="pref_import_data">导入数据</string>
+    <string name="pref_export_csv">输出事件日志(CSV)</string>
+    <string name="pref_export_config_sum">备份包括排除号码及时间在内的配置项到SD卡</string>
+    <string name="pref_export_data_sum">备份通话及短信事件数据到SD卡</string>
+    <string name="pref_import_config_sum">从SD卡恢复配置文件</string>
+    <string name="pref_import_data_sum">从SD卡恢复通话及短信事件数据并于当前数据合并</string>
+    <string name="pref_export_csv_sum">导出通话及短信事件数据为易读的CSV文件</string>
+    <string name="pref_use_unicode_sms_split">超过80个字符时截断(UNICODE)</string>
+    <string name="pref_use_unicode_sms_split_sum">当你的信息超过80个字符被截断时勾选此项</string>
+    <string name="pref_importexport">导入/导出 (测试)</string>
+    <string name="units_category">短信/分钟 兑换</string>
+    <string name="unit_limit_box_or">或</string>
+    <string name="pref_gui">界面设定</string>
+    <string name="pref_notifications_cat">通知设定</string>
+    <string name="pref_unit_limit">单位限制 (短信/分钟 转换)</string>
+    <string name="pref_unit_limit_sum">激活这个选项, 如果你可以将短信兑换成通话时间, 反之亦然. 例如100分钟或200条短信. 分钟是通话时长的基本单位. 兑换比率将会基于给定的短信及计量单位(分钟)限制自动计算. 费用基于该比率, 如果你想使用费用功能, 只需输入单位费用. 启用该功能将会禁用单独的短信限制和通话时间限制.</string>
+    <string name="pref_units_free_sum">你的通话时长. 作为限制用的基本单位.</string>
+    <string name="pref_units_free">免费时长(单位)</string>
+    <string name="pref_units_sms_free_sum">或一个月可以使用多少条短信.</string>
+    <string name="pref_units_sms_free">免费短信</string>
+    <string name="pref_costs_limit">资费上限</string>
+    <string name="pref_costs_limit_sum">当你有想要监控的(个人)费用限制时激活. 该项激活时, DroidStats管理概览框显示不超过3个.</string>
+    <string name="pref_costs_free_sum">你想花费的最高额度, 达到时,你将会收到提醒.</string>
+    <string name="pref_costs_free">资费限制额</string>
+    <string name="costs_remaining">剩余资费</string>
+    <string name="estimated_costs">估算资费</string>
+    <string name="units_remaining">剩余单位</string>
+    <string name="estimated_units">预估单位</string>
+    <string name="applist_textbox_search">搜索应用</string>
+    <string name="pref_showunits">显示单位</string>
+    <string name="widgetconfig_4slot">4. 空</string>
+    <string name="widgetconfig_3slot">3. 空</string>
+    <string name="widgetconfig_2slot">2. 空</string>
+    <string name="widgetconfig_1slot">1. 空</string>
+    <string name="widgetconfig_configure">配置</string>
+    <string name="button_search">搜索</string>
+    <string name="applist_system_apps">系统应用</string>
+    <string name="applist_downloaded_apps">已下载的应用</string>
+    <string name="data_per_app_shortcuttitle">每个应用的数据</string>
+    <string name="data_per_app_button">每个应用的数据</string>
+    <string name="applist_not_supported_text">很遗憾你的手机或你的定制ROM不支持该功能.</string>
+    <string name="applist_feature_not_supported">不支持的功能</string>
+    <string name="dataperapp_info_text">已列出的数据量是自您的手机上最后一次启动至今的数据使用量. 数据使用量是指通过手机的所有接口使用的数据量. 包括WIFI, 3G, USB和蓝牙等. Android系统没有提供分开计算的数据.</string>
+    <string name="applist_getting_data">获取数据中</string>
+    <string name="pref_widget_1x1_oneslot_unitsadded_sum">仅对单格部件产生影响</string>
+    <string name="pref_widget_statusbarwidget_sum">一个在通知区域整合的小部件.</string>
+    <string name="pref_widget_use_statusbarwidget">使用状态栏部件</string>
+    <string name="widget_config_title">部件信息</string>
+    <string name="widgetconfig_premium_support4x1">4x1 部件是我们为捐赠者准备的功能之一. 帮助并支持我们使DroidStats变得更好. 通过在Android市场捐赠还可解锁对所有部件进行配置等功能.</string>
+    <string name="widgetconfig_premium_supportedconfig">对部件进行设置是我们为捐赠者准备的功能之一. 例如你还可以对值进行重新排序以及设置计数值. 帮助并支持我们, 让DroidStats变得更好.</string>
+    <string name="widgetconfig_premium">支持我们</string>
+    <string name="pref_use1SlotWidget">作为单格部件使用</string>
+    <string name="pref_use1SlotWidget_sum">看起来更大并可以显示限制条的部件.</string>
+    <string name="pref_status_bar_widget">状态条小部件</string>
+    <string name="pref_status_bar_widget_theme">部件主题</string>
+    <string name="pref_widget_4x1">部件 4x1</string>
+    <string name="pref_widget_3x1">部件 3x1</string>
+    <string name="pref_widget_2x1">部件 2x1</string>
+    <string name="pref_widget_1x1">部件 1x1</string>
+    <string name="pref_widget_other">其他</string>
+    <string name="pref_widget_values">值</string>
+    <string name="pref_widget_transparency">透明度</string>
+    <string name="pref_widget_transparency_sum">预发布Froyo版的电话尽可以使用特定的透明度</string>
+    <string name="average_outgoing_paid_calls_length">付费的呼出电话平均时长</string>
+    <string name="average_outgoing_paid_sms_length">发出的付费短信平均长度</string>
+    <string name="average_outgoing_paid_calls_length_sum">您的平均通话时长. 用来分析你需要付费的通话, 以及哪些是呼出电话.</string>
+    <string name="average_outgoing_paid_sms_length_sum">你平均每条短信包含的字符数. 用来分析你需要付费的发出短信.</string>
+    <string name="pref_useHoursDisplay">偏好 小时/分钟 格式</string>
+    <string name="pref_useHoursDisplay_sum">例如在详细统计中将130分钟替换为2小时10分钟</string>
+    <string name="about_title">关于 &amp; 信息</string>
+    <string name="about_facebook">Facebook 群组</string>
+    <string name="about_donation_market">捐赠市场(高级)</string>
+    <string name="about_donation_paypal">Paypal捐赠</string>
+    <string name="about_homepage">主页</string>
+    <string name="premium_invalid_title">关键问题</string>
+    <string name="premium_invalid_alert">无法验证密钥. 也许google授权服务器出了问题(掉线了? 请重启). 授权数据定期上线检查. 遇到问题时联系我们.</string>
+    <string name="pref_manual_corr_numlabel">更正联系人</string>
+    <string name="manual_corr_calls">分钟(出)</string>
+    <string name="manual_corr_sms">短信(出)</string>
+    <string name="manual_corr_traffic">MB 数据(出)</string>
+    <string name="pref_manual_corr_add">增加...</string>
+    <string name="pref_manual_corr_hint">...到您的当前数据. 用今天进行日期修正.</string>
+    <string name="pref_upateIntervallSMS">短信更新间隔</string>
+    <string name="pref_upateIntervallSMS_sum">DroidStats应该多久检查一次发送和接受的短信息. 如果你发送不了多少消息，提高该值。作为数据用量计数时需要更多的计算. 如果后台服务被禁用, 将只在应用启动时检查.</string>
+    <string name="pref_upateIntervallTraffic">数据用量更新间隔</string>
+    <string name="pref_upateIntervallTraffic_sum">DroidStats多久检查一次接口信息以跟踪数据用量(影响准确度)</string>
+    <string name="pref_actions">动作</string>
+    <string name="pref_actions_sum">例如清空数据库或手动校正的一次性动作</string>
+    <string name="pref_manual_correction">手动数据校正</string>
+    <string name="pref_manual_correction_sum">月中或刚升级你的手机? 也许你想为你的使用设定一个起始用量. 并非提高你的每月限额.</string>
+    <string name="quickaction_stat_info">统计信息</string>
+    <string name="favorite_toggle_add">添加收藏</string>
+    <string name="favorite_toogle_remove">取消收藏</string>
+    <string name="pref_billIncomingCalls">计费呼入电话</string>
+    <string name="pref_billIncomingSMS">计费收到的短信</string>
+    <string name="pref_billIncomingCalls_sum">如果您的呼入电话也计费, 请勾选该选项. 如果启用, 除时间外, 还会使用呼入电话的数量和费用.</string>
+    <string name="pref_billIncomingSMS_sum">如果您收到的短信也计费, 请勾选该选项. 如果启用, 除数量外, 还会使用收到的短信的费用.</string>
+    <string name="excludedtimes_quickinfo">添加您可以免费通话的日期和时间. 如果你可以在周末免费通话, 可以给\"周末\"添加一个从上午12点到第二天上午12点的过滤项. 也许你的周末可以时间更多些. 然后添加例如周五下午7点到零点(次日)以及周一零点至凌晨5点. 不要重叠午夜, 添加2个不同的限制.</string>
+    <string name="excludedSMSNumbers_quickinfo">添加你可以发送免费短信的号码和联系人. 你还可以通过添加模式过滤器以过滤与之匹配的号码. 如果有使用*符号的免费号码, 你可以在选项中启用并选择@作为匹配符号. 为了获得更好的效果, 请开启国家代码修正.</string>
+    <string name="excludedCallnumbers_quickinfo">添加你可以拨打免费电话的号码和联系人. 你还可以通过天际模式过滤器以过滤与之匹配的号码. 如果有使用*符号的免费号码, 你可以在选项中启用并选择@作为匹配符号. 为了获得更好的效果, 请开启国家代码修正.</string>
+    <string name="costsettings_quickinfo">如果费用功能开启, 将会计算费用. 将会在概览中显示. 如果你已启用限制条件, 仅当费用超出限制时才计算. 同样的, 如果你使用通话时间限制时不计算连接费.</string>
+    <string name="widgetconfg_remainingdata">该时期的剩余数据</string>
+    <string name="widgetconfig_remainingsms">该时期的短信余量</string>
+    <string name="widgetconfig_remainingcalltime">该时期的通话时间余量</string>
+    <string name="widgetconfig_configdesc">在部件上显示的数据:</string>
+    <string name="widgetconfig_addwidget">添加部件</string>
+    <string name="average_monthly_outgoing_payed_minutes">平均付费呼出时长(月)</string>
+    <string name="average_weekly_outgoing_payed_minutes">平均付费呼出时长(周)</string>
+    <string name="average_monthly_sms_sent">平均发出短信(月)</string>
+    <string name="average_weekly_sms_sent">平均发出的短信(周)</string>
+    <string name="descriptionAverageMonthlySmsSent">您平均每月发送多少条短信</string>
+    <string name="descriptionAverageWeeklySmsSent">您平均每周发送多少条短信</string>
+    <string name="descriptionAverageMonthlyOutgoingPayedMinutes">你每个月平均的计费时长</string>
+    <string name="descriptionAverageWeeklyOutgoingPayedMinutes">你平均每周的计费时间</string>
+    <string name="pref_ccc_title">国家代码修正</string>
+    <string name="pref_ccc_sum">为没有国家代码的号码添加你的国家代码以获得更好的统计数据. 这在你使用免费号码功能时尤其重要.</string>
+    <string name="pref_ccc_useCCC">给没有国家代码的号码添加国家代码(仅影响国内号码)</string>
+    <string name="pref_ccc_countrycode">您的国家代码(不需加号)</string>
+    <string name="pref_ccc_transformations"><u>数字转换样例:</u></string>
+    <string name="sync_progress_correction">数字修正</string>
+    <string name="pref_forceEnglish">强制使用英语</string>
+    <string name="pref_forceEnglish_sum">如果您有另一种语言的DroidStats, 您可以选择此选项使用英语</string>
+    <string name="pref_excludetimes_dialog_title">选择工作日及时段</string>
+    <string name="pref_excludelist_dialog_addtime">增加时间</string>
+    <string name="pref_excludetime_timeinfo">设定你的免费时段的开始时间和结束时间.</string>
+    <string name="pref_free_times">日期和时间 - 筛选</string>
+    <string name="pref_free_times_sum">排除你的通话时长不计分的时段及日期(意味着开始于该时段的呼叫已被排除在外)</string>
+    <string name="pref_excludelist_wildcard">你可以使用 %1$s 作为通配符</string>
+    <string name="pref_excludelist_alreadyin">号码已包括</string>
+    <string name="pref_excludelist_patternmatches">%1$s个号码符号你的匹配模板</string>
+    <string name="pref_excludelist_number">号码:</string>
+    <string name="pref_excludelist_name">名称:</string>
+    <string name="pref_excludelist_unknown">[未知]</string>
+    <string name="general">通用</string>
+    <string name="button_continue_import">继续 &amp; 导入</string>
+    <string name="dialog_title_welcome">欢迎使用DroidStats</string>
+    <string name="dialog_title_whats_new">新鲜事</string>
+    <string name="welcome_text">"感谢您安装DroidStats。
+
+ 为了使用DroidStats，你应该配置你的合约计划中包含多少"<b>免费通话时间、免费短信 和免费数据量</b>。 如果没有限制，你可以设置你的<b>个人限制</b>"，以节省费用。 如果达到限制，你会得到通知并且进度条变成橙色和红色。
+
+ 有四个不同的选项卡，第一个选项卡是概览， 提供你当月的概要信息。 其他选项卡为你提供每项服务(通话、短信、数据)的详细信息。 您可以点击列表中的每个统计数据获得更多信息。 在通话和短信视图，你可以点击顶部列表中的联系人照片使用"<b>快捷操作</b>"。
+
+ 想要每个月更快更好地控制，尝试使用部件。有3个不同的部件， 其中最大的一个同时显示了你的数据的限制。
+
+ 请不要忘记根据你的服务商调整"<b>结算 增量</b>。您还可以根据你的账单开始日设置<b>月份起始日</b>。 该应用<b>模拟</b>你的供应商的行为，但它不一定可以适用于所有合约计划。 由于无法确定您所呼叫的提供商，该数据中只有您的提供商。 如果您有<b>免费号码</b>，你可以在选项中<b>排除他们</b>"。
+
+ DroidStats同步您的短信收/发件箱以及呼叫记录到自己的事件日志。 无需担心Android内部的500条呼叫记录限制以及已经删除的短信和通话记录， 安装DroidStats后他们同样会被计算在内以提高计数质量。
+
+ 如果你使用着像HTC Dream、HTC Magic或HTC Hero这样的"<b>比较慢的设备</b>，请在DroidStats的选项中禁用动画以使应用运行的更快。请<b>不要使用Task Killers</b>"关闭DroidStats。
+
+ 记住，测量自安装此应用程序时开始。
+
+ 你可以在关于找到我的电子邮件地址，如果您有任何疑问或发现错误请与我联系
+
+ 享用吧"</string>
+    <string name="descriptionTodayMobile">显示您今天移动互联网接口(2G/3G)发送和接收的数据流量.</string>
+    <string name="descriptionMonthMobile">显示本计费月份通过您的移动互联网接口(2G/3G)发送和接收的数据流量. 流量跟踪从安装该应用时起.</string>
+    <string name="descriptionTotalMobile">显示所有通过您的移动互联网接口(2G/3G)发送和接收的数据流量.</string>
+    <string name="descriptionTodayWifi">显示今天通过您的wifi接口(无线网络)发送和接受的数据流量.</string>
+    <string name="descriptionMonthWifi">显示该计费月份内通过wifi接口(无线网络)发送和接受的数据流量.</string>
+    <string name="descriptionTotalWifi">显示所有的通过wifi接口(无线网络)收发的数据量.</string>
+    <string name="data">数据</string>
+    <string name="data_tab">数据</string>
+    <string name="price_per_mb_data">每MB数据价格</string>
+    <string name="use_cost_option_data">启用数据费用</string>
+    <string name="interface_not_discovered_yet">尚未发现接口</string>
+    <string name="button_cancel" />
+    <string name="button_ok" />
+    <string name="sure">确定?</string>
+    <string name="pref_reset_standart_check">通话/短信 计数清零</string>
+    <string name="pref_reset_data_check">数据计数清零</string>
+    <string name="pref_reset_interfaces_check">重新找回接口</string>
+    <string name="no" />
+    <string name="yes" />
+    <string name="pref_reset_dialog">你确定要重置吗? 数据将根据电话呼叫记录以及您的收件箱/发件箱中的短信记录重建. 所有您已删除的记录在重建统计数据时不做考虑. 数据计数器中的数据是随着时间的推移从接口计数器重新收集的. 如果您在数据用量计数时遇到严重的问题, 可以检查“重新找回接口”.</string>
+    <string name="data_remaining">剩余数据量</string>
+    <string name="estimated_data">估计数据量</string>
+    <string name="pref_traffic_free_sum">每个月你可以使用的数据流量额度</string>
+    <string name="pref_traffic_free">免费数据量</string>
+    <string name="pref_traffic_limit_sum">如果你的合约计划中包含免费(互联网)数据量，激活该项</string>
+    <string name="pref_traffic_limit">数据量限制</string>
+    <string name="traffic_daily">今天</string>
+    <string name="traffic_monthly">月</string>
+    <string name="traffic_alltime">合计</string>
+    <string name="infoLimits">"请配置设定中的限制, 并查看“关于”对话框中的信息. 如果你不想使用限制功能, 您可以仅启用费用设置.
+
+您可以使用轻扫手势在各屏之间切换."</string>
+    <string name="costs">费用</string>
+    <string name="pref_alternativepattern_sum">"由于有些服务提供商在号码中使用'*'符合, 用@代替"</string>
+    <string name="pref_alternativepattern">用@作为排除模式的符号</string>
+    <string name="title">Nitro DroidStats</string>
+    <string name="sms_tab">短信</string>
+    <string name="calls_tab">呼叫</string>
+    <string name="overview">概览</string>
+    <string name="unit_overview">单位:</string>
+    <string name="costs_overview">费用:</string>
+    <string name="calls_overview">呼叫:</string>
+    <string name="sms_overview">短信:</string>
+    <string name="data_overview">移动数据:</string>
+    <string name="add">添加</string>
+    <string name="total">合计</string>
+    <string name="monthly">每月</string>
+    <string name="mobile">移动电话</string>
+    <string name="wifi">无线网络</string>
+    <string name="estimated_good">(好)</string>
+    <string name="estimated_bad">(差)</string>
+    <string name="remaining_days_label">计费月剩余天数</string>
+    <string name="estimated_sms">估计短信</string>
+    <string name="estimated_minutes">估计时长</string>
+    <string name="sms_remaining">剩余短信量</string>
+    <string name="minutes_remaining">剩余时长</string>
+    <string name="extra_costs">额外费用</string>
+    <string name="descriptionIncomingSmsMonthly">本月收到的短信总数</string>
+    <string name="descriptionOutgoingSmsMonthly">本月发出短信总数</string>
+    <string name="descriptionIncomingSms">收到的短信总数</string>
+    <string name="descriptionOutgoingSms">您已发送的短信量</string>
+    <string name="descriptionIncomingSMSPaidMonthly">您本月收到的短信数量 不包括您的免费号码，包括分条短信</string>
+    <string name="descriptionOutgoingSMSPaidMonthly">你本月发送的短信量 不包括你的免费号码, 包括分条短信</string>
+    <string name="descriptionIncomingSMSPaid">你接收的短信量 不包括你的免费号码, 包括分条短信</string>
+    <string name="descriptionOutgoingSMSPaid">你发送的短信量 不包括你的免费号码, 包括分条短信</string>
+    <string name="incoming_sms">收到的短信</string>
+    <string name="outgoing_sms">发出的短信</string>
+    <string name="incoming_sms_paid">接收付费短信</string>
+    <string name="outgoing_sms_paid">发送付费短信</string>
+    <string name="descriptionMissedCallsMonthly">本月你的未接电话总数.</string>
+    <string name="descriptionIncomingCallsMonthly">本月你接到的呼入电话总数</string>
+    <string name="descriptionIncomingMinutesMonthly">本月呼入电话的通话时长.</string>
+    <string name="descriptionFailedCallsMonthly">本月无人接听的呼叫总数. 不含像语音信箱等会产生费用的呼叫.</string>
+    <string name="descriptionOutgoingCallsMonthly">本月你呼出的电话总数</string>
+    <string name="descriptionOutgoingPayedMinutesMonthly">您本月必须付费的呼出电话时长. 排除号码未包括. 注意: 也许高于实际呼出时长 这主要依赖你的合约计划中的计费增量(例如: 1/1, 10/60, 60/60)或者由于由过多的排除号码而比实际时长低</string>
+    <string name="descriptionOutgoingMinutesMonthly">本月实际通话时长</string>
+    <string name="descriptionFailedCallsTotal">无人应答的呼叫总数. 不包括会产生费用的类似语音信箱等.</string>
+    <string name="descriptionOutgoingCallsTotal">呼出电话总数</string>
+    <string name="descriptionMissedCallsTotal">未接电话总数</string>
+    <string name="descriptionIncomingCallsTotal">呼入电话总数</string>
+    <string name="descriptionIncomingMinutesTotal">本月接听呼入电话的总时长</string>
+    <string name="descriptionOutgoingPayedMinutesTotal">您本月必须付费的呼出电话时长. 排除号码未包括. 注意: 也许高于实际呼出时长 这主要依赖你的合约计划中的计费增量(例如: 1/1, 10/60, 60/60)或者由于由过多的排除号码而比实际时长低</string>
+    <string name="descriptionOutgoingMinutesTotal">呼出电话实际总时长</string>
+    <string name="descriptionIncomingPayedMinutesTotal">您本月必须付费的呼入电话时长. 排除号码未包括. 注意: 也许高于实际呼入时长 这主要依赖你的合约计划中的计费增量(例如: 1/1, 10/60, 60/60)或者由于由过多的排除号码而比实际时长低</string>
+    <string name="descriptionIncomingPayedMinutesMonth">您本月必须付费的呼入电话时长. 排除号码未包括. 注意: 也许高于实际呼入时长 这主要依赖你的合约计划中的计费增量(例如: 1/1, 10/60, 60/60)或者由于由过多的排除号码而比实际时长低</string>
+    <string name="descriptionOutgoingMinutesPayed">您必须付费的金额. 排除号码未包括. 注意: 也许高于实际呼出时长 这主要依赖你的合约计划中的计费增量(例如: 1/1, 10/60, 60/60)</string>
+    <string name="descriptionOutgoingMinutes">通话总时长</string>
+    <string name="missed_calls">未接呼叫</string>
+    <string name="incoming_calls">呼入电话</string>
+    <string name="incoming_minutes">呼入时长</string>
+    <string name="incoming_payed_minutes">呼入付费时长</string>
+    <string name="failed_calls">失败呼叫</string>
+    <string name="outgoing_calls">呼出电话</string>
+    <string name="outgoing_payed_minutes">呼出付费时长</string>
+    <string name="outgoing_minutes">呼出时长</string>
+    <string name="sync_progress_2">分析事件</string>
+    <string name="sync_progress_1">与系统同步</string>
+    <string name="progress_working">统计中..</string>
+    <string name="starting_sync">开始同步</string>
+    <string name="first_sync_message">"数据同步(第一次同步可能需要几分钟.)
+
+同步后查看漂亮的部件."</string>
+    <string name="unit_calls">呼叫</string>
+    <string name="unit_minutes">分钟</string>
+    <string name="unit_seconds">秒</string>
+    <string name="unit_sms" />
+    <string name="unit_sms_chars">字符</string>
+    <string name="unit_units">单位</string>
+    <string name="app_name">DroidStats</string>
+    <string name="event_log_phone">电话</string>
+    <string name="event_log_call_time">通话时长</string>
+    <string name="event_log_billed_time">计费时长</string>
+    <string name="event_log_message_length">信息长度</string>
+    <string name="event_log_billed_messages">计费信息</string>
+    <string name="event_log_homescreen_shortcut">事件日志</string>
+    <string name="stat_list_mode_favorites">显示收藏夹</string>
+    <string name="stat_list_mode_all">显示全部</string>
+    <string name="calltime_limit_invalid">通话时间限制没有设置有效值</string>
+    <string name="sms_limit_invalid">短信条数限制没有设置有效值</string>
+    <string name="unit_limit_invalid">单位限制(分钟)未设置有效值</string>
+    <string name="unit_sms_limit_invalid">单位限制(短信)未设置有效值</string>
+    <string name="warning_treshold_invalid">警告阈值没有设置有效值</string>
+    <string name="costs_limit_invalid">费用限制未设置有效值</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_help">关于 &amp; 帮助</string>
+    <string name="menu_settings" />
+    <string name="menu_log">事件日志</string>
+    <string name="menu_import_export">导入/导出</string>
+    <string name="menu_csv_export">导出CSV</string>
+    <string name="about"><b>Nitro DroidStats</b>" 
+
+开发者 "<b>Michael Ludwig</b>" 
+图形界面及支持 "<b>David Eberlein (v2.0以后)</b>" 
+
+ 如果您喜欢这个应用, 请考虑 "<b>捐赠</b>". 详见下方链接. 捐赠可以解锁部件配置等功能. 
+
+ 关于 "<b>更新</b>" 请参考应用市场
+
+ "<b>帮助 &amp; 说明:</b>" 
+
+ "<ul> <li>该应用有不同的部件, 以帮助你控制在限定额度内. 来试试吧!</li>" 
+
+ "<li>点击统计数据中的每项以显示前3名</li>" 
+
+ "<li>概览中的缩略图显示了如果您按照之前的使用率是否将在月底时达到限制的额度.</li>" 
+
+ "<li>数据流量统计从应用安装之时开始, 经过一段时间之后讲更具有代表性.</li>" 
+
+ "<li>Froyo方式的Apps2SD不适用于包含后台服务以及部件的应用.</li>" 
+
+ "<li>如果您使用类似 <b>AndroidAIR Mail</b> 或者 <b>WebSMS</b>的应用 您可以会在发件箱中增加将会被该应用统计但不会出现在您的账单中的额外短信. 请注意. </li>" 
+
+ "<li>如果您发现 <b>错误</b> 请给我 (mail.michael.ludwig@gmail.com) 发送电子邮件或访问我们网站上的UserVoice </li>" 
+
+ "<li>访问我们的Facebook群组或网站获取更多信息</li>" 
+ "</ul></string>
+    <string name="limitsInvalid">警告: 阈值或限制未设置有效值</string>
+    <string name="notify_smsLimitReached">超出短信限制</string>
+    <string name="notify_smsLimitNear">短信限制即将达到</string>
+    <string name="notify_limitNear">限制即将达到</string>
+    <string name="notify_limitExceeded">超出限制</string>
+    <string name="notify_smsLimitNearBody">您即将达到您的每月短信限制</string>
+    <string name="notify_smsLimitReachedBody">您已超出您的每月短信限制</string>
+    <string name="notify_callLimitReachedBody">您已超出您的每月免费时长限制</string>
+    <string name="notify_callLimitNearBody">您即将达到您的每月免费时长限制</string>
+    <string name="notify_callLimitNear">即将达到免费时长限制</string>
+    <string name="notify_callLimitReached">已超出免费时长限制</string>
+    <string name="notify_costsLimitReachedBody">您已超出你的每月费用限制</string>
+    <string name="notify_costsLimitNearBody">您即将达到您的每月费用限制</string>
+    <string name="notify_costsLimitNear">费用限制即将达到</string>
+    <string name="notify_costsLimitReached">已超出费用限制</string>
+    <string name="notify_unitsLimitReachedBody">您已超出您的每月单位限制</string>
+    <string name="notify_unitsLimitNearBody">您即将达到您的每月单位限制</string>
+    <string name="notify_unitsLimitNear">即将达到单位限制</string>
+    <string name="notify_unitsLimitReached">已超出单位限制</string>
+    <string name="button_close">关闭</string>
+    <string name="cron_picker_monthly_day_of_month_n">本月第几天: %1$s</string>
+    <string name="contact_or_number">联系人或号码</string>
+    <string name="save_and_return">保存并返回</string>
+    <string name="price_per_message">每条信息价格:</string>
+    <string name="cents">分</string>
+    <string name="price_per_minute">每分钟价格:</string>
+    <string name="price_per_unit">每单位(分钟)价格:</string>
+    <string name="use_cost_option">使用费用选项</string>
+    <string name="use_call_cost_option">启用呼叫费用</string>
+    <string name="use_sms_cost_option">启用短信费用</string>
+    <string name="use_unit_cost_option">启用单位费用</string>
+    <string name="cost_settings">费用设定</string>
+    <string name="pref_limits">每月限制</string>
+    <string name="pref_limits_sum">设置您的合约的每月限制</string>
+    <string name="pref_calltime_limit">通话时长限制</string>
+    <string name="pref_calltime_limit_sum">您的合约计划中包含免费时长时激活</string>
+    <string name="pref_calltime_free">免费时长</string>
+    <string name="pref_calltime_free_sum">免费时长总额</string>
+    <string name="pref_sms_limit">短信限制</string>
+    <string name="pref_sms_limit_sum">如果你的合约中包含免费短信, 请激活</string>
+    <string name="pref_sms_free">免费短信</string>
+    <string name="pref_sms_free_sum">免费短信总数</string>
+    <string name="pref_month_beginning">计费月份开始于</string>
+    <string name="pref_month_beginning_sum">运营商的账单日, 例如: 1</string>
+    <string name="pref_billing">帐单</string>
+    <string name="pref_billing_sum">设定费用、帐单、号码以及例外时段</string>
+    <string name="pref_costs">费用设定</string>
+    <string name="pref_costs_sum">设定短信、呼叫以及数据价格</string>
+    <string name="pref_billing_increment">计费增量</string>
+    <string name="pref_billing_increment_sum">您的合约以秒作为计费增量(第一段时间/接下来时间)</string>
+    <string name="pref_free_call_num">免费号码(通话)</string>
+    <string name="pref_free_call_num_sum">设定您可以免费呼叫的号码</string>
+    <string name="pref_free_sms_num">免费号码(短信)</string>
+    <string name="pref_free_sms_num_sum">设定您可以免费发送短信的号码</string>
+    <string name="pref_split_sms">分开计算长短信</string>
+    <string name="pref_split_sms_sum">分开计算更长的160字符的短信(分条短信)</string>
+    <string name="pref_app">程序设定</string>
+    <string name="pref_app_sum">有关应用的设定</string>
+    <string name="pref_estimations">每月用量估算</string>
+    <string name="pref_estimations_sum">显示根据之前几天(计费月开始一周后)估算的每月短信量及通话时长</string>
+    <string name="pref_call_notification">发送呼叫通知</string>
+    <string name="pref_call_notification_sum">选中以在接近和超出呼叫限制时在状态栏接收通知</string>
+    <string name="pref_sms_notification">发送短信通知</string>
+    <string name="pref_sms_notification_sum">选中以在接近和超出短信限制时在状态栏接收通知</string>
+    <string name="pref_traffic_notification">发送数据通知</string>
+    <string name="pref_traffic_notification_sum">选中以在接近和超出数据限制时在状态栏接收通知</string>
+    <string name="pref_unit_notification">发送单位通知</string>
+    <string name="pref_unit_notification_sum">选中以在接近和超出单位限制时在状态栏接收通知</string>
+    <string name="pref_costs_notification">发送费用通知</string>
+    <string name="pref_costs_notification_sum">选中以在接近和超出费用限制时在状态栏接收通知</string>
+    <string name="pref_threshold">提醒阈值</string>
+    <string name="pref_threshold_sum">何时提醒您即将达到限额的阈值百分比(%). 通过通知(如果已启用)和动态条的颜色表示.</string>
+    <string name="pref_advanced">高级设定</string>
+    <string name="pref_services">开启后台服务</string>
+    <string name="pref_services_sum">如果不使用部件和通知时可以禁用, 以节省电池. 同时也将不会进行后台短信轮询.</string>
+    <string name="pref_animaions_off">禁用动画</string>
+    <string name="pref_animaions_off_sum">使该应用在较慢设备上运行更快. (需要重启应用)</string>
+    <string name="pref_reset_db">清空数据库</string>
+    <string name="pref_reset_db_sum">清空数据库并根据通话记录和短信收件箱重建</string>
+    <string name="pref_reset_db_dialog">"确定要重置数据库吗?
+
+数据将根据通话记录和短信收件箱重建."</string>
+    <string name="provider_interface_alias_wifi">Wi-Fi</string>
+    <string name="provider_interface_alias_3g">2G/3G 网络</string>
+    <string name="provider_interface_alias_ethernet">以太网</string>
+    <string name="provider_interface_alias_loopback">回滚</string>
+    <string name="notification_usage_level_medium_title">达到中等使用水平</string>
+    <string name="notification_usage_level_medium">移动数据接口(2G/3G)已达到中等使用率</string>
+    <string name="notification_usage_level_high_title">已达高使用率</string>
+    <string name="notification_usage_level_high">移动数据接口(2G/3G)已达到高使用率</string>
+    <string name="pref_widget">部件设定</string>
+    <string name="pref_widget_sum">定制部件</string>
+    <string name="pref_widget_micro_stat1">选择第一个统计项</string>
+    <string name="pref_widget_micro_stat1_sum">部件上显示的第一个(比较靠上的)统计项</string>
+    <string name="pref_widget_micro_stat2">选择第二个统计项</string>
+    <string name="pref_widget_micro_stat2_sum">部件上显示的第二个(比较靠下的)统计项</string>
+    <string name="pref_widget_micro_stat3">选择第三个统计项</string>
+    <string name="pref_widget_micro_stat4">选择第四个统计项</string>
+</resources>

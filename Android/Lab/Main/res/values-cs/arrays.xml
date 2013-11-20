@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timing_choices">
+        <item>60/10</item>
+        <item>60/1</item>
+        <item>1/1 (po sekundách)</item>
+        <item>60/60 (po minutách)</item>
+        <item>60/30</item>
+        <item>10/10</item>
+        <item>30/1</item>
+        <item>30/6</item>
+        <item>30/10</item>
+        <item>30/30</item>
+        <item>45/1</item>
+        <item>60/15</item>
+        <item>3600/3600 (po hodinách)</item>
+    </string-array>
+    <string-array name="stat_choices">
+        <item>Volné minuty</item>
+        <item>Volné SMS</item>
+        <item>Limit stažených dat</item>
+        <item>Volné jednotky</item>
+        <item>Zbývající náklady</item>
+        <item>Celkové náklady</item>
+        <item>Odchozí Min. (Celkem)</item>
+        <item>Odchozí Min. (Měsíčně)</item>
+        <item>Placené odchozí minuty (Celkem)</item>
+        <item>Placené odchozí minuty (Měsíčně)</item>
+        <item>Odchozí hovory (Celkem)</item>
+        <item>Odchozí hovory (Měsíčně)</item>
+        <item>Příchozí Min. (Celkem)</item>
+        <item>Příchozí Min. (Měsíčně)</item>
+        <item>Příchozí hovory (Celkem)</item>
+        <item>Příchozí hovory (Měsíčně)</item>
+        <item>Zrušené hovory (Celkem)</item>
+        <item>Zrušené hovory (Měsíčně)</item>
+        <item>Zmeškané hovory (Celkem)</item>
+        <item>Zmeškané hovory (Měsíčně)</item>
+        <item>Cena za hovory</item>
+        <item>Odeslané SMS (Celkem)</item>
+        <item>Odeslané SMS (Měsíčně)</item>
+        <item>Odeslané placené SMS (Celkem)</item>
+        <item>Odeslané placené SMS (Měsíčně)</item>
+        <item>Přijaté SMS (Celkem)</item>
+        <item>Přijaté SMS (Měsíčně)</item>
+        <item>Cena za SMS</item>
+        <item>Mobilní Data Dnes</item>
+        <item>Mobilní Data Měsíčně</item>
+        <item>Mobilní Data Celkem</item>
+        <item>Cena za mobilní data</item>
+        <item>Wi-Fi Data Dnes</item>
+        <item>Wi-Fi Data Měsíčně</item>
+        <item>Wi-Fi Data Celkem</item>
+        <item>Zbývající placené minuty</item>
+        <item>Zbývající placené SMS</item>
+        <item>Zbývající jednotky</item>
+        <item>Zbývající mobilní data</item>
+        <item>Zbývající náklady</item>
+        <item>Remaining Days (Month)</item>
+    </string-array>
+    <string-array name="hours">
+        <item>0:00</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>0:00 (následující den)</item>
+    </string-array>
+    <string-array name="upateIntervallTraffic_choices">
+        <item>15 minutes (higher accuracy)</item>
+        <item>30 minutes (default)</item>
+        <item>60 minutes (less battery)</item>
+    </string-array>
+    <string-array name="updateIntervallSMS_choices">
+        <item>45 minutes (more energy)</item>
+        <item>90 minutes (default)</item>
+        <item>6 hours (less battery)</item>
+    </string-array>
+    <string-array name="statusBarWidgetThemes">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Workingday (Mon - Fri)</item>
+        <item>Weekend</item>
+    </string-array>
+</resources>

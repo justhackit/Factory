@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <nitro.phonestats.settings.NumberPickerButton android:id="@id/number_picker_button_increment" android:background="@drawable/numberpicker_up_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:textSize="30.0sp" android:gravity="center" android:id="@id/number_picker_input" android:background="@drawable/numberpicker_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/textAppearanceLargeInverse" />
+    <nitro.phonestats.settings.NumberPickerButton android:id="@id/number_picker_button_decrement" android:background="@drawable/numberpicker_down_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

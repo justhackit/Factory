@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/widget3" android:background="@drawable/action_bar_bg" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/StatusBarWidget.SlotLayout">
+        <ImageView android:id="@id/img_first" android:src="@drawable/ic_call" style="@style/StatusBarWidget.SlotIcon" />
+        <TextView android:id="@id/txt_first" android:text="- min" style="@style/StatusBarWidget.SlotLabel.Dark" />
+        <FrameLayout android:id="@id/bar_call_container" android:layout_width="fill_parent" android:layout_height="9.0dip">
+            <ProgressBar android:id="@id/bar_call_good" style="@style/StatusBarWidget.SlotProgress.Good" />
+            <ProgressBar android:id="@id/bar_call_warn" style="@style/StatusBarWidget.SlotProgress.Warn" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView style="@style/StatusBarWidget.SlotDevider.Sense" />
+    <LinearLayout style="@style/StatusBarWidget.SlotLayout">
+        <ImageView android:id="@id/img_second" android:src="@drawable/ic_sms" style="@style/StatusBarWidget.SlotIcon" />
+        <TextView android:id="@id/txt_second" android:text="- sms" style="@style/StatusBarWidget.SlotLabel.Dark" />
+        <FrameLayout android:id="@id/bar_sms_container" android:layout_width="fill_parent" android:layout_height="9.0dip">
+            <ProgressBar android:id="@id/bar_sms_good" style="@style/StatusBarWidget.SlotProgress.Good" />
+            <ProgressBar android:id="@id/bar_sms_warn" style="@style/StatusBarWidget.SlotProgress.Warn" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView style="@style/StatusBarWidget.SlotDevider.Sense" />
+    <LinearLayout style="@style/StatusBarWidget.SlotLayout">
+        <ImageView android:id="@id/img_third" android:src="@drawable/ic_sms" style="@style/StatusBarWidget.SlotIcon" />
+        <TextView android:id="@id/txt_third" android:text="- blub" style="@style/StatusBarWidget.SlotLabel.Dark" />
+        <FrameLayout android:id="@id/bar_third_container" android:layout_width="fill_parent" android:layout_height="9.0dip">
+            <ProgressBar android:id="@id/bar_third_good" style="@style/StatusBarWidget.SlotProgress.Good" />
+            <ProgressBar android:id="@id/bar_third_warn" style="@style/StatusBarWidget.SlotProgress.Warn" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView style="@style/StatusBarWidget.SlotDevider.Sense" />
+    <LinearLayout style="@style/StatusBarWidget.SlotLayout">
+        <ImageView android:id="@id/img_forth" android:src="@drawable/ic_data" style="@style/StatusBarWidget.SlotIcon" />
+        <TextView android:id="@id/txt_forth" android:text="- mb" style="@style/StatusBarWidget.SlotLabel.Dark" />
+        <FrameLayout android:id="@id/bar_traffic_container" android:layout_width="fill_parent" android:layout_height="9.0dip">
+            <ProgressBar android:id="@id/bar_traffic_good" style="@style/StatusBarWidget.SlotProgress.Good" />
+            <ProgressBar android:id="@id/bar_traffic_warn" style="@style/StatusBarWidget.SlotProgress.Warn" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

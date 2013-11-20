@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BulletPoint">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@*android:color/black</item>
+        <item name="android:text">•</item>
+    </style>
+    <style name="Text" />
+    <style name="Text.Loading" parent="@style/Text">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@*android:color/black</item>
+    </style>
+    <style name="Text.WordTitle" parent="@style/Text">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*android:color/black</item>
+    </style>
+    <style name="Text.WordType" parent="@style/Text">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@*android:color/black</item>
+    </style>
+    <style name="Text.Definition" parent="@style/Text">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@*android:color/black</item>
+    </style>
+    <style name="Text.Widget" parent="@style/Text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fffafafa</item>
+    </style>
+    <style name="Text.WidgetConfigTable" parent="@style/Text">
+        <item name="android:textColor">#fffafafa</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">1.0dip</item>
+        <item name="android:layout_marginBottom">1.0dip</item>
+    </style>
+    <style name="Text.WidgetConfigTable.CellTitle" parent="@style/Text.WidgetConfigTable">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="Text.WidgetConfigTable.CellText" parent="@style/Text.WidgetConfigTable">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+    </style>
+    <style name="Animations" />
+    <style name="Animations.PopDownMenu" parent="@style/Animations" />
+    <style name="Animations.PopDownMenu.Center" parent="@style/Animations.PopDownMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+    <style name="Animations.PopDownMenu.Left" parent="@style/Animations.PopDownMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+    <style name="Animations.PopDownMenu.Right" parent="@style/Animations.PopDownMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+    <style name="Animations.PopDownMenu.Reflect" parent="@style/Animations.PopDownMenu">
+        <item name="android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="Animations.PopUpMenu" parent="@style/Animations" />
+    <style name="Animations.PopUpMenu.Center" parent="@style/Animations.PopUpMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+    <style name="Animations.PopUpMenu.Left" parent="@style/Animations.PopUpMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+    <style name="Animations.PopUpMenu.Right" parent="@style/Animations.PopUpMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+    <style name="Animations.PopUpMenu.Reflect" parent="@style/Animations.PopUpMenu">
+        <item name="android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="StatusBarWidget" />
+    <style name="StatusBarWidget.SlotLayout" parent="@style/StatusBarWidget">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="StatusBarWidget.SlotDevider" parent="@style/StatusBarWidget">
+        <item name="android:layout_width">2.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="StatusBarWidget.SlotDevider.Light" parent="@style/StatusBarWidget.SlotDevider">
+        <item name="android:background">@drawable/notiwidget_devider_light</item>
+    </style>
+    <style name="StatusBarWidget.SlotDevider.Dark" parent="@style/StatusBarWidget.SlotDevider">
+        <item name="android:background">@drawable/notiwidget_devider_dark</item>
+    </style>
+    <style name="StatusBarWidget.SlotDevider.Sense" parent="@style/StatusBarWidget.SlotDevider">
+        <item name="android:background">@drawable/action_bar_separator</item>
+    </style>
+    <style name="StatusBarWidget.SlotIcon" parent="@style/StatusBarWidget">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="StatusBarWidget.SlotLabel" parent="@style/StatusBarWidget">
+        <item name="android:textSize">11.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="StatusBarWidget.SlotLabel.Light" parent="@style/StatusBarWidget.SlotLabel">
+        <item name="android:textColor">#ff333333</item>
+    </style>
+    <style name="StatusBarWidget.SlotLabel.Dark" parent="@style/StatusBarWidget.SlotLabel">
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="StatusBarWidget.SlotProgress" parent="@style/StatusBarWidget">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:indeterminateOnly">false</item>
+    </style>
+    <style name="StatusBarWidget.SlotProgress.Good" parent="@style/StatusBarWidget.SlotProgress">
+        <item name="android:progress">25</item>
+        <item name="android:secondaryProgress">0</item>
+        <item name="android:progressDrawable">@drawable/appwidget_bar_center_good</item>
+    </style>
+    <style name="StatusBarWidget.SlotProgress.Warn" parent="@style/StatusBarWidget.SlotProgress">
+        <item name="android:progress">0</item>
+        <item name="android:secondaryProgress">0</item>
+        <item name="android:progressDrawable">@drawable/appwidget_bar_center_warn</item>
+    </style>
+    <style name="PromoTitle" parent="@*android:style/TextAppearance.Large">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+    </style>
+    <style name="PromoText" parent="@*android:style/TextAppearance.Small">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="PromoDevider">
+        <item name="android:background">#ff8bc205</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0dip</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:layout_marginBottom">2.0dip</item>
+    </style>
+</resources>
