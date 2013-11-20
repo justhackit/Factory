@@ -161,3 +161,8 @@ org.eclipse.core.internal.resources.ResourceException: A resource already exists
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
 !SUBENTRY 1 org.eclipse.core.resources 4 272 2013-11-20 20:22:49.946
 !MESSAGE A resource already exists on disk '/home/chinna/Factory/Android/Lab/MyFirstApp/.settings'.
+
+!ENTRY org.eclipse.core.resources 2 2 2013-11-20 20:38:00.629
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2013-11-20 20:38:00.629
+!MESSAGE The project description file (.project) for 'MyFirstApp' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
