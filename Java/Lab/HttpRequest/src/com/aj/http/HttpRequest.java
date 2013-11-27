@@ -69,6 +69,7 @@ import java.security.PrivilegedAction;
 import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -3150,4 +3151,152 @@ public class HttpRequest {
     getConnection().setInstanceFollowRedirects(followRedirects);
     return this;
   }
+  
+	/**
+	 * Get the status code of the response as an clear message
+	 * 
+	 * @return the response code
+	 * @throws HttpRequestException
+	 */
+	public String codeInEnglish() throws HttpRequestException {
+		String code_message = null;
+		try {
+			closeOutput();
+			int code = getConnection().getResponseCode();
+			HashMap<Integer, String> code_msg = new HashMap<Integer, String>();
+			code_msg.put(
+					100,
+					"100|Continue|Informational responses|This interim response indicates that everything so far is OK and that the client should continue with the request or ignore it if it is already finished.");
+			code_msg.put(
+					101,
+					"101|Switching Protocol|Informational responses|This code is sent in response to an Update: request header by the client, and indicates that the protocol the server is switching too. It was introduced to allow migration to an incompatible protocol version, and is not in common use.");
+			code_msg.put(
+					200,
+					"200|OK|Successful responses|The request has succeeded. The meaning of a success varies depending on the HTTP method: GET: The resource has been fetched and is transmitted in the message body. HEAD: The entity headers are in the message body. POST: The resource describing the result ");
+			code_msg.put(
+					201,
+					"201|Created|Successful responses|The request has succeeded and a new resource has been created as a result of it. This is typically the response sent after a PUT request.");
+			code_msg.put(
+					202,
+					"202|Accepted|Successful responses|The request has been received but not yet acted upon. It is non-committal, meaning that there is no way in HTTP to later send an asynchronous response indicating the outcome of processing the request. It is intended for cases where another process or serv");
+			code_msg.put(
+					203,
+					"203|Non-Authoritative Information|Successful responses|This response code means returned meta-information set is not exact set as available from the origin server, but collected from a local or a third party copy. Except this condition, 200 OK response should be preferred instead of this response.");
+			code_msg.put(
+					204,
+					"204|No Content|Successful responses|There is no content to send for this request, but the headers may be useful. The user-agent may update its cached headers for this resource with the new ones.");
+			code_msg.put(
+					205,
+					"205|Reset Content|Successful responses|This response code is sent after accomplishing request to tell user agent reset document view which sent this request.");
+			code_msg.put(
+					206,
+					"206|Partial Content|Successful responses|This response code is used because of range header sent by the client to separate download into multiple streams.");
+			code_msg.put(
+					300,
+					"300|Multiple Choice|Redirection messages|The request has more than one possible responses. User-agent or user should choose one of them. There is no standardized way to choose one of the responses.");
+			code_msg.put(
+					301,
+					"301|Moved Permanently|Redirection messages|This response code means that URI of requested resource has been changed. Probably, new URI would be given in the response.");
+			code_msg.put(
+					302,
+					"302|Found|Redirection messages|This response code means that URI of requested resource has been changed temporarily. New changes in the URI might be made in the future. Therefore, this same URI should be used by the client in future requests.");
+			code_msg.put(
+					303,
+					"303|See Other|Redirection messages|Server sent this response to directing client to get requested resource to another URI with an GET request.");
+			code_msg.put(
+					304,
+					"304|Not Modified|Redirection messages|This is used for caching purposes. It is telling to client that response has not been modified. So, client can continue to use same cached version of response.");
+			code_msg.put(
+					305,
+					"305|Use Proxy|Redirection messages|This means requested response must be accessed by a proxy. This response code is not largely supported because security reasons.");
+			code_msg.put(
+					306,
+					"306|unused|Redirection messages|This response code is no longer used, it is just reserved currently. It was used in a previous version of the HTTP 1.1 specification.");
+			code_msg.put(
+					307,
+					"307|Temporary Redirect|Redirection messages|Server sent this response to directing client to get requested resource to another URI with same method that used prior request. This has the same semantic than the 302 Found HTTP response code, with the exception that the user agent must not change the H");
+			code_msg.put(
+					308,
+					"308|Permanent Redirect|Redirection messages|This means that the resource is now permanently located at another URI, specified by the Location: HTTP Response header. This has the same semantics as the 301 Moved Permanently HTTP response code, with the exception that the user agent must notchange the");
+			code_msg.put(
+					400,
+					"400|Bad Request|Client error responses|This response means that server could not understand the request due to invalid syntax.");
+			code_msg.put(
+					401,
+					"401|Unauthorized|Client error responses|Authentication is needed to get requested response. This is similar to 403, but in this case, authentication is possible.");
+			code_msg.put(
+					402,
+					"402|Payment Required|Client error responses|This response code is reserved for future use. Initial aim for creating this code was using it for digital payment systems however this is not used currently.");
+			code_msg.put(
+					403,
+					"403|Forbidden|Client error responses|Client does not have access rights to the content so server is rejecting to give proper response.");
+			code_msg.put(
+					404,
+					"404|Not Found|Client error responses|Server can not find requested resource. This response code probably is most famous one due to its frequency to occur in web.");
+			code_msg.put(
+					405,
+					"405|Method Not Allowed|Client error responses|The request method is known by the server but has been disabled and cannot be used. The two mandatory methods, GET and HEAD, must never be disabled and should not return this error code.");
+			code_msg.put(
+					406,
+					"406|Not Acceptable|Client error responses|This response is sent when the web server, after performing server-driven content negotiation, doesn't find any content following the criteria given by the user agent.");
+			code_msg.put(
+					407,
+					"407|Proxy Authentication Required|Client error responses|This is similar to 401 but authentication is needed to be done by a proxy.");
+			code_msg.put(
+					408,
+					"408|Request Timeout|Client error responses|This response is sent on an idle connection by some servers, even without any previous request by the client. It means that the server would like to shut down this unused connection. This response is used much more since some browsers, like Chrome or IE9,");
+			code_msg.put(
+					409,
+					"409|Conflict|Client error responses|This response would be sent when a request conflict with current state of server.");
+			code_msg.put(
+					410,
+					"410|Gone|Client error responses|This response would be sent when requested content has been deleted from server.");
+			code_msg.put(
+					411,
+					"411|Length Required|Client error responses|Server rejected the request because the Content-Length header field is not defined and the server requires it.");
+			code_msg.put(
+					412,
+					"412|Precondition Failed|Client error responses|The client has indicated preconditions in its headers which the server does not meet.");
+			code_msg.put(
+					413,
+					"413|Request Entity Too Large|Client error responses|Request entity is larger than limits defined by server");
+			code_msg.put(
+					414,
+					"414|Request-URI Too Long|Client error responses|The URI requested by the client is too long for the server to handle.");
+			code_msg.put(
+					415,
+					"415|Unsupported Media Type|Client error responses|The media format of the requested data is not supported by the server, so the server is rejecting the request.");
+			code_msg.put(
+					416,
+					"416|Requested Range Not Satisfiable|Client error responses|The range specified by the Range header field in the request can't be fulfilled");
+			code_msg.put(
+					417,
+					"417|Expectation Failed|Client error responses|This response code means the expectation indicated by the Expect request header field can't be met by the server.");
+			code_msg.put(
+					500,
+					"500|Internal Server Error|Server error responses|The server has encountered a situation it doesn't know how to handle.");
+			code_msg.put(
+					501,
+					"501|Not Implemented|Server error responses|The request method is not supported by the server and cannot be handled. The only methods that servers are required to support (and therefore that must not return this code) are GET and HEAD.");
+			code_msg.put(
+					502,
+					"502|Bad Gateway|Server error responses|This error response means that the server, while working as a gateway to get a response needed to handle the request, got an invalid response.");
+			code_msg.put(
+					503,
+					"503|Service Unavailable|Server error responses|The server is not ready to handle the request. Common causes are a server that is down for maintenance or that is overloaded. Note that together with this response, a user-friendly page explaining the problem should be sent. This responses should be used ");
+			code_msg.put(
+					504,
+					"504|Gateway Timeout|Server error responses|This error response is given when the server is acting as a gateway and cannot get a response in time.");
+			code_msg.put(
+					505,
+					"505|HTTP Version Not Supported|Server error responses|The HTTP version used in the request is not supported by the server.");
+			code_message = code_msg.get((int)code);
+			if(code_message==null)
+				code_message=code+" is an unknown code!";
+			return code_message;
+		} catch (IOException e) {
+			throw new HttpRequestException(e);
+		}
+	}
+
 }
